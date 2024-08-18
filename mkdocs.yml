@@ -1,0 +1,5 @@
+site_name: WoBike
+extra_javascript:
+  - js/widgetla.js
+  - js/disable_shortcuts.js
+  - css/styles.css
