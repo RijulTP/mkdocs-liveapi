@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Flamingo - WoBike</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">WoBike</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bikes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Avocargo/" class="dropdown-item">Avocargo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Baqme/" class="dropdown-item">Baqme (E-cargo bike)</a>
+</li>
+                                    
+<li>
+    <a href="../Beam/" class="dropdown-item">Beam</a>
+</li>
+                                    
+<li>
+    <a href="../Bicikelj/" class="dropdown-item">Bicikelj</a>
+</li>
+                                    
+<li>
+    <a href="../Bird/" class="dropdown-item">Bird (Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Bixi/" class="dropdown-item">Bixi (Montréal, QC, Canada)</a>
+</li>
+                                    
+<li>
+    <a href="../Blip/" class="dropdown-item">Blip</a>
+</li>
+                                    
+<li>
+    <a href="../Blueduck/" class="dropdown-item">Blue Duck</a>
+</li>
+                                    
+<li>
+    <a href="../Bluegogo/" class="dropdown-item">Bluegogo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Bolt/" class="dropdown-item">Bolt (E-Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Bond/" class="dropdown-item">Bond (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Call-a-Bike/" class="dropdown-item">Call a Bike</a>
+</li>
+                                    
+<li>
+    <a href="../Cambio/" class="dropdown-item">Cambio</a>
+</li>
+                                    
+<li>
+    <a href="../Cargaroo/" class="dropdown-item">Cargaroo</a>
+</li>
+                                    
+<li>
+    <a href="../Circ/" class="dropdown-item">Flash / Circ / Bird (scooters) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../CityBikeWien/" class="dropdown-item">CityBike Wien (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Coup/" class="dropdown-item">Coup (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Donkey/" class="dropdown-item">Donkey Republic</a>
+</li>
+                                    
+<li>
+    <a href="../Dropbike/" class="dropdown-item">Dropbike (Canada)</a>
+</li>
+                                    
+<li>
+    <a href="../EUBike/" class="dropdown-item">Introduction (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Eddy/" class="dropdown-item">eddy</a>
+</li>
+                                    
+<li>
+    <a href="../Emmy/" class="dropdown-item">Emmy</a>
+</li>
+                                    
+<li>
+    <a href="../EnTur/" class="dropdown-item">EnTur (Aggregate endpoint, Norway)</a>
+</li>
+                                    
+<li>
+    <a href="../Evhcle/" class="dropdown-item">Evhcle</a>
+</li>
+                                    
+<li>
+    <a href="../Evo%20Sharing/" class="dropdown-item">Evo Sharing</a>
+</li>
+                                    
+<li>
+    <a href="../Felyx/" class="dropdown-item">Felyx</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Flamingo</a>
+</li>
+                                    
+<li>
+    <a href="../Frank-e/" class="dropdown-item">Frank-e</a>
+</li>
+                                    
+<li>
+    <a href="../Go-Sharing/" class="dropdown-item">Go Sharing</a>
+</li>
+                                    
+<li>
+    <a href="../Gobee/" class="dropdown-item">Gobee Bike (gobee)</a>
+</li>
+                                    
+<li>
+    <a href="../Helbiz/" class="dropdown-item">Helbiz (Scooter)</a>
+</li>
+                                    
+<li>
+    <a href="../Hive/" class="dropdown-item">Hive (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Jump/" class="dropdown-item">JUMP (USA) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Kruiser/" class="dropdown-item">Kruiser</a>
+</li>
+                                    
+<li>
+    <a href="../Lidl-Bike/" class="dropdown-item">Lidl-Bike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Lime/" class="dropdown-item">Lime</a>
+</li>
+                                    
+<li>
+    <a href="../Link/" class="dropdown-item">Link</a>
+</li>
+                                    
+<li>
+    <a href="../Miles/" class="dropdown-item">Miles</a>
+</li>
+                                    
+<li>
+    <a href="../Mobike/" class="dropdown-item">Mobike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Motivate/" class="dropdown-item">Motivate</a>
+</li>
+                                    
+<li>
+    <a href="../Neuron/" class="dropdown-item">Neuron</a>
+</li>
+                                    
+<li>
+    <a href="../Nextbike/" class="dropdown-item">Nextbike (Worldwide)</a>
+</li>
+                                    
+<li>
+    <a href="../Obike/" class="dropdown-item">Obike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Ofo/" class="dropdown-item">Ofo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Onzo/" class="dropdown-item">Onzo (bikes, Location: New Zealand) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Pony/" class="dropdown-item">Pony</a>
+</li>
+                                    
+<li>
+    <a href="../Ryde/" class="dropdown-item">Ryde</a>
+</li>
+                                    
+<li>
+    <a href="../Scoota/" class="dropdown-item">Scoota (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Sigo/" class="dropdown-item">Sigo</a>
+</li>
+                                    
+<li>
+    <a href="../SocialBicycles/" class="dropdown-item">SocialBicycles (USA, Canada, Czech Republic, Poland)</a>
+</li>
+                                    
+<li>
+    <a href="../Spin/" class="dropdown-item">Spin (Bikes and Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Stella/" class="dropdown-item">stella</a>
+</li>
+                                    
+<li>
+    <a href="../Tier/" class="dropdown-item">Tier</a>
+</li>
+                                    
+<li>
+    <a href="../Ufo/" class="dropdown-item">Ufo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Vaimoo/" class="dropdown-item">Vaimoo</a>
+</li>
+                                    
+<li>
+    <a href="../VeloAntwerpen/" class="dropdown-item">Velo Antwerpen</a>
+</li>
+                                    
+<li>
+    <a href="../Voi/" class="dropdown-item">Introduction:</a>
+</li>
+                                    
+<li>
+    <a href="../WeShare/" class="dropdown-item">WeShare (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Wind/" class="dropdown-item">WIND (former BYKE)</a>
+</li>
+                                    
+<li>
+    <a href="../Yobike/" class="dropdown-item">Yobike and yobike-based provider (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Zagster/" class="dropdown-item">Zagster (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Zero/" class="dropdown-item">Zero (defunct)</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Felyx/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Frank-e/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/RijulTP/mkdocs-liveapi/edit/master/docs/bikes/Flamingo.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#flamingo" class="nav-link">Flamingo</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#request-otp-code" class="nav-link">Request OTP Code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#verify-otp-code" class="nav-link">Verify OTP code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#refresh-token" class="nav-link">Refresh Token</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#get-scooter-locations" class="nav-link">Get Scooter Locations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#get-zones-and-area-info" class="nav-link">Get Zones and area info</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#gbfs" class="nav-link">GBFS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#implementations" class="nav-link">Implementations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="flamingo">Flamingo</h1>
+<p><a href="https://www.flamingoscooters.com/">Flamingo</a> is an E-Scooter sharing service that operates in New Zealand.</p>
+<h2 id="request-otp-code">Request OTP Code</h2>
+<p><strong>Method</strong>: <code>POST</code></p>
+<p><strong>URL</strong>: <code>https://www.googleapis.com/identitytoolkit/v3/relyingparty/sendVerificationCode</code></p>
+<p><strong>Headers</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Headers</th>
+<th>Value</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>X-Ios-Bundle-Identifier</td>
+<td>com.flamingoscooters.ios</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Params</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th>Value</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>key</td>
+<td>AIzaSyCrkmrEuGrn9tgWfCY2rcpd-LRAnsE84ik</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The Body</strong>:</p>
+<p><code>{"iosReceipt":"AEFDNu-Htn7DOuqCRwPrpDA7lMKkUHJduCQPNpel6sVYukJIBM6g_ZoJxyKK__G41ND_-uEkoTQvulRec3wZXXuXxEgfpbcOF8Dftg1eLFHRiZWsCfzbezjYe1P7rx2RIBG7c2V_","iosSecret":"WlQ2n-YexIkrNlpZ","phoneNumber":"+64&lt;YOUR-PHONE-NUMBER&gt;"}</code></p>
+<p>As a result an OTP code should have been texted to and the response should include the session id:</p>
+<pre><code>{
+    &quot;sessionInfo&quot;: &quot;&lt;LONG-STRING&gt;&quot;
+}
+</code></pre>
+<h2 id="verify-otp-code">Verify OTP code</h2>
+<p><strong>Method</strong>: <code>POST</code></p>
+<p><strong>URL</strong>: <code>https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPhoneNumber</code></p>
+<p><strong>Params</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th>Value</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>key</td>
+<td>AIzaSyCrkmrEuGrn9tgWfCY2rcpd-LRAnsE84ik</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Headers</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Headers</th>
+<th>Value</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>X-Ios-Bundle-Identifier</td>
+<td>com.flamingoscooters.ios</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The Body</strong>:</p>
+<p><code>{"code":"&lt;OTP-CODE&gt;","operation":"SIGN_UP_OR_IN","sessionInfo":"&lt;SESSION-ID&gt;"}</code></p>
+<p>This should use the OTP Code and grant you an Access and Refresh Token</p>
+<pre><code>{
+    &quot;idToken&quot;: &quot;&lt;ID-TOKEN&gt;&quot;, --- Access token
+    &quot;refreshToken&quot;: &quot;&lt;REFRESH-TOKEN&gt;&quot;,
+    &quot;expiresIn&quot;: &quot;3600&quot;,
+    &quot;localId&quot;: &quot;&lt;LOCAL-ID&gt;&quot;,
+    &quot;isNewUser&quot;: false,
+    &quot;phoneNumber&quot;: &quot;+64&lt;YOUR-PHONE-NUMBER&gt;&quot;
+}
+</code></pre>
+<h3 id="add-user-info">Add User Info</h3>
+<p>:warning: This only applies to accounts that haven't already been created, but it is recommended that you setup your account in the Flamingo app and not sign up through their API. :warning:</p>
+<p><strong>Method</strong>: <code>POST</code></p>
+<p><strong>URL</strong>: <code>https://api.flamingoscooters.com/sign-up</code></p>
+<p><strong>Headers</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Headers</th>
+<th>Value</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>X-Ios-Bundle-Identifier</td>
+<td>com.flamingoscooters.ios</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>Authorization</td>
+<td>USER-ID</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Params</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th>Value</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>key</td>
+<td>AIzaSyCrkmrEuGrn9tgWfCY2rcpd-LRAnsE84ik</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The Body</strong>:</p>
+<p><code>{"lastName":"&lt;YOUR-LAST-NAME&gt;","email":"&lt;YOUR-EMAIL&gt;","firstName":"&lt;YOUR-FIRST-NAME&gt;","dateOfBirth":"1990-09-20T19:32:00+12:00"}</code></p>
+<h2 id="refresh-token">Refresh Token</h2>
+<p>A token is valid for 1 hour. Use this endpoint to get a new token after the old one expires.</p>
+<p><strong>Method</strong>: <code>POST</code></p>
+<p><strong>URL</strong>: <code>https://securetoken.googleapis.com/v1/token</code></p>
+<p><strong>Headers</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Headers</th>
+<th>Value</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>X-Ios-Bundle-Identifier</td>
+<td>com.flamingoscooters.ios</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Params</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th>Value</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>key</td>
+<td>AIzaSyCrkmrEuGrn9tgWfCY2rcpd-LRAnsE84ik</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The Body</strong>:</p>
+<p><code>{"grantType":"refresh_token","refreshToken":"&lt;YOUR-REFRESH-TOKEN&gt;"}</code></p>
+<p>This should verify the code and grant you a Access and Refresh Token. Here's the output:</p>
+<pre><code>{
+    &quot;access_token&quot;: &quot;&lt;YOUR-ACCESS-TOKEN&gt;&quot;,
+    &quot;expires_in&quot;: &quot;3600&quot;, --- 1 HOUR
+    &quot;token_type&quot;: &quot;Bearer&quot;,
+    &quot;refresh_token&quot;: &quot;&lt;YOUR-REFRESH-TOKEN&gt;&quot;,
+    &quot;id_token&quot;: &quot;&lt;YOUR-ID-TOKEN&gt;&quot;,
+    &quot;user_id&quot;: &quot;&lt;YOUR-USER-ID&gt;&quot;,
+    &quot;project_id&quot;: &quot;663814096530&quot;
+}
+</code></pre>
+<h2 id="get-scooter-locations">Get Scooter Locations</h2>
+<p>After authenticating you can now retreive locations of scooters and zones</p>
+<p><strong>URL</strong>: <code>https://production.api.flamingoscooters.com/vehicle/area</code></p>
+<p><strong>Method</strong>: <code>GET</code></p>
+<p><strong>Headers</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Headers</th>
+<th>Description</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Authorization</td>
+<td>Your access token</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Parameters</th>
+<th>Descriptions</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>neLatitude</td>
+<td>latitude</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>neLongitude</td>
+<td>longitude</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>swLatitude</td>
+<td>latitude</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>swLongitude</td>
+<td>longitude</td>
+<td style="text-align: center;">X</td>
+</tr>
+<tr>
+<td>zoom</td>
+<td>zoom integer</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p>The output should be something like this:</p>
+<pre><code>{
+    &quot;success&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 23, --- ID to send commands to the scooter
+            &quot;object&quot;: &quot;vehicle&quot;,
+            &quot;type&quot;: &quot;SCOOTER&quot;,
+            &quot;model&quot;: &quot;SEGWAY_ES&quot;,
+            &quot;registration&quot;: &quot;1038&quot;, --- ID to find scooter on the street
+            &quot;status&quot;: &quot;AVAILABLE&quot;,
+            &quot;batteryPercent&quot;: 0.97,
+            &quot;latitude&quot;: -43.532892,
+            &quot;longitude&quot;: 172.633852,
+            &quot;statusTime&quot;: &quot;2021-02-25T03:50:29.000Z&quot;, --- Last Signal with the scooter
+            &quot;gpsTime&quot;: &quot;2021-02-25T03:41:28.000Z&quot;, --- Last GPS Ping
+            &quot;remainingRange&quot;: 1856, --- KM Range (18km remaining)
+            &quot;pricing&quot;: {
+                &quot;id&quot;: 13,
+                &quot;object&quot;: &quot;pricingPlan&quot;,
+                &quot;plan&quot;: &quot;STANDARD&quot;,
+                &quot;unlock&quot;: 100,
+                &quot;perMin&quot;: 38,
+                &quot;currency&quot;: &quot;NZD&quot;,
+                &quot;description&quot;: &quot;$1 NZD to unlock, 38c per min&quot;
+            }
+        },
+        ...
+</code></pre>
+<h2 id="get-zones-and-area-info">Get Zones and area info</h2>
+<p><strong>URL</strong>: <code>https://production.api.flamingoscooters.com/region/all</code></p>
+<p><strong>Method</strong>: <code>GET</code></p>
+<p><strong>Headers</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Headers</th>
+<th>Description</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Authorization</td>
+<td>Your access token</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p>The output should be something like this:</p>
+<pre><code>{
+    &quot;success&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 4,
+            &quot;object&quot;: &quot;region&quot;,
+            &quot;name&quot;: &quot;Christchurch&quot;,
+            &quot;country&quot;: &quot;NZ&quot;,
+            &quot;centreLatitude&quot;: -43.532038,
+            &quot;centreLongitude&quot;: 172.636572,
+            &quot;message&quot;: null,
+            &quot;messageUrl&quot;: null,
+            &quot;timezone&quot;: &quot;Pacific/Auckland&quot;,
+            &quot;startTime&quot;: &quot;00:00&quot;,
+            &quot;endTime&quot;: &quot;24:00&quot;,
+            &quot;zones&quot;: [
+                {
+                    &quot;id&quot;: 90,
+                    &quot;object&quot;: &quot;zone&quot;,
+                    &quot;name&quot;: &quot;Botanic Gardens&quot;,
+                    &quot;message&quot;: &quot;The Botanic Gardens are a no riding or parking zone.&quot;,
+                    &quot;type&quot;: &quot;NORIDING&quot;,
+                    &quot;polygon&quot;: [
+                        {
+                            &quot;latitude&quot;: -43.529044,
+                            &quot;longitude&quot;: 172.627315
+                        },
+                        {
+                            &quot;latitude&quot;: -43.529519,
+                            &quot;longitude&quot;: 172.625196
+                        },
+                        {
+                            &quot;latitude&quot;: -43.529666,
+                            &quot;longitude&quot;: 172.623678
+                        },
+                        {
+                            &quot;latitude&quot;: -43.529184,
+                            &quot;longitude&quot;: 172.622128
+                        },
+                        {
+                            &quot;latitude&quot;: -43.528274,
+                            &quot;longitude&quot;: 172.620159
+                        },
+                        {
+                            &quot;latitude&quot;: -43.527943,
+                            &quot;longitude&quot;: 172.620261
+                        },
+                        {
+                            &quot;latitude&quot;: -43.527554,
+                            &quot;longitude&quot;: 172.620068
+                        },
+                        {
+                            &quot;latitude&quot;: -43.527329,
+                            &quot;longitude&quot;: 172.619607
+                        },
+                        {
+                            &quot;latitude&quot;: -43.527484,
+                            &quot;longitude&quot;: 172.618995
+                        },
+                        {
+                            &quot;latitude&quot;: -43.52778,
+                            &quot;longitude&quot;: 172.618539
+                        },
+                        {
+                            &quot;latitude&quot;: -43.528609,
+                            &quot;longitude&quot;: 172.618153
+                        },
+                        {
+                            &quot;latitude&quot;: -43.52969,
+                            &quot;longitude&quot;: 172.617927
+                        },
+                        {
+                            &quot;latitude&quot;: -43.530398,
+                            &quot;longitude&quot;: 172.61819
+                        },
+                        {
+                            &quot;latitude&quot;: -43.532035,
+                            &quot;longitude&quot;: 172.618603
+                        },
+                        {
+                            &quot;latitude&quot;: -43.532385,
+                            &quot;longitude&quot;: 172.619006
+                        },
+                        {
+                            &quot;latitude&quot;: -43.532389,
+                            &quot;longitude&quot;: 172.619725
+                        },
+                        {
+                            &quot;latitude&quot;: -43.532233,
+                            &quot;longitude&quot;: 172.620309
+                        },
+                        {
+                            &quot;latitude&quot;: -43.531568,
+                            &quot;longitude&quot;: 172.623474
+                        },
+                        {
+                            &quot;latitude&quot;: -43.531724,
+                            &quot;longitude&quot;: 172.625084
+                        },
+                        {
+                            &quot;latitude&quot;: -43.532179,
+                            &quot;longitude&quot;: 172.626012
+                        },
+                        {
+                            &quot;latitude&quot;: -43.532999,
+                            &quot;longitude&quot;: 172.62716
+                        },
+                        {
+                            &quot;latitude&quot;: -43.533005,
+                            &quot;longitude&quot;: 172.627323
+                        },
+                        {
+                            &quot;latitude&quot;: -43.529044,
+                            &quot;longitude&quot;: 172.627315
+                        }
+                    ]
+                },
+        ...
+</code></pre>
+<h3 id="get-scooter-parking-photo">Get Scooter Parking Photo</h3>
+<p>Use the <code>id</code> from the scooter output and not the <code>registration</code> id.</p>
+<p><strong>URL</strong>: <code>https://api.flamingoscooters.com/vehicle/&lt;vehicle-id&gt;/last-photo</code></p>
+<p><strong>Method</strong>: <code>GET</code></p>
+<p><strong>Headers</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Headers</th>
+<th>Description</th>
+<th style="text-align: center;">Mandatory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Authorization</td>
+<td>Your access token</td>
+<td style="text-align: center;">X</td>
+</tr>
+</tbody>
+</table>
+<p>This should output the URL for the Parking Photo. Some scooters may not have one, here's an example from a scooter that does have one:</p>
+<pre><code>{
+    &quot;success&quot;: true,
+    &quot;data&quot;: {
+        &quot;photoUrl&quot;: &quot;https://storage.googleapis.com/flamingo-ugc/JmpviKnyIwwXQQRRmyEJkyEaoasFZpgM.jpg&quot;
+    }
+}
+</code></pre>
+<h2 id="gbfs">GBFS</h2>
+<p>Flamingo also supports the <a href="https://github.com/NABSA/gbfs">GBFS</a> system.</p>
+<p><strong>URL</strong>: <code>https://api.flamingoscooters.com/gbfs/&lt;city&gt;/gbfs.json</code></p>
+<p>The output should be something like this:</p>
+<pre><code>{
+    &quot;success&quot;: true,
+    &quot;data&quot;: {
+        &quot;bikes&quot;: [
+            {
+                &quot;bike_id&quot;: &quot;4130&quot;,
+                &quot;lat&quot;: -43.528927,
+                &quot;lon&quot;: 172.639989,
+                &quot;current_range_meters&quot;: 21420,
+                &quot;last_reported&quot;: 1629880900
+            },
+            ...
+            ]
+    },
+    &quot;last_updated&quot;: 1629880939,
+    &quot;ttl&quot;: 60
+}
+</code></pre>
+<p><strong>Postman Collection</strong>: https://documenter.getpostman.com/view/11220018/TVKD2xdh</p>
+<h2 id="implementations">Implementations</h2>
+<p>https://openscootermap.netlify.app/</p>
+<p>https://moovitapp.com/</p>
+<p>https://transitapp.com</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../js/widgetla.js"></script>
+        <script src="../../js/disable_shortcuts.js"></script>
+        <script src="../../css/styles.css"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

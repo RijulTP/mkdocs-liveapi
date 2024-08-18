@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Miles - WoBike</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">WoBike</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bikes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Avocargo/" class="dropdown-item">Avocargo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Baqme/" class="dropdown-item">Baqme (E-cargo bike)</a>
+</li>
+                                    
+<li>
+    <a href="../Beam/" class="dropdown-item">Beam</a>
+</li>
+                                    
+<li>
+    <a href="../Bicikelj/" class="dropdown-item">Bicikelj</a>
+</li>
+                                    
+<li>
+    <a href="../Bird/" class="dropdown-item">Bird (Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Bixi/" class="dropdown-item">Bixi (Montréal, QC, Canada)</a>
+</li>
+                                    
+<li>
+    <a href="../Blip/" class="dropdown-item">Blip</a>
+</li>
+                                    
+<li>
+    <a href="../Blueduck/" class="dropdown-item">Blue Duck</a>
+</li>
+                                    
+<li>
+    <a href="../Bluegogo/" class="dropdown-item">Bluegogo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Bolt/" class="dropdown-item">Bolt (E-Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Bond/" class="dropdown-item">Bond (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Call-a-Bike/" class="dropdown-item">Call a Bike</a>
+</li>
+                                    
+<li>
+    <a href="../Cambio/" class="dropdown-item">Cambio</a>
+</li>
+                                    
+<li>
+    <a href="../Cargaroo/" class="dropdown-item">Cargaroo</a>
+</li>
+                                    
+<li>
+    <a href="../Circ/" class="dropdown-item">Flash / Circ / Bird (scooters) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../CityBikeWien/" class="dropdown-item">CityBike Wien (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Coup/" class="dropdown-item">Coup (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Donkey/" class="dropdown-item">Donkey Republic</a>
+</li>
+                                    
+<li>
+    <a href="../Dropbike/" class="dropdown-item">Dropbike (Canada)</a>
+</li>
+                                    
+<li>
+    <a href="../EUBike/" class="dropdown-item">Introduction (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Eddy/" class="dropdown-item">eddy</a>
+</li>
+                                    
+<li>
+    <a href="../Emmy/" class="dropdown-item">Emmy</a>
+</li>
+                                    
+<li>
+    <a href="../EnTur/" class="dropdown-item">EnTur (Aggregate endpoint, Norway)</a>
+</li>
+                                    
+<li>
+    <a href="../Evhcle/" class="dropdown-item">Evhcle</a>
+</li>
+                                    
+<li>
+    <a href="../Evo%20Sharing/" class="dropdown-item">Evo Sharing</a>
+</li>
+                                    
+<li>
+    <a href="../Felyx/" class="dropdown-item">Felyx</a>
+</li>
+                                    
+<li>
+    <a href="../Flamingo/" class="dropdown-item">Flamingo</a>
+</li>
+                                    
+<li>
+    <a href="../Frank-e/" class="dropdown-item">Frank-e</a>
+</li>
+                                    
+<li>
+    <a href="../Go-Sharing/" class="dropdown-item">Go Sharing</a>
+</li>
+                                    
+<li>
+    <a href="../Gobee/" class="dropdown-item">Gobee Bike (gobee)</a>
+</li>
+                                    
+<li>
+    <a href="../Helbiz/" class="dropdown-item">Helbiz (Scooter)</a>
+</li>
+                                    
+<li>
+    <a href="../Hive/" class="dropdown-item">Hive (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Jump/" class="dropdown-item">JUMP (USA) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Kruiser/" class="dropdown-item">Kruiser</a>
+</li>
+                                    
+<li>
+    <a href="../Lidl-Bike/" class="dropdown-item">Lidl-Bike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Lime/" class="dropdown-item">Lime</a>
+</li>
+                                    
+<li>
+    <a href="../Link/" class="dropdown-item">Link</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Miles</a>
+</li>
+                                    
+<li>
+    <a href="../Mobike/" class="dropdown-item">Mobike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Motivate/" class="dropdown-item">Motivate</a>
+</li>
+                                    
+<li>
+    <a href="../Neuron/" class="dropdown-item">Neuron</a>
+</li>
+                                    
+<li>
+    <a href="../Nextbike/" class="dropdown-item">Nextbike (Worldwide)</a>
+</li>
+                                    
+<li>
+    <a href="../Obike/" class="dropdown-item">Obike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Ofo/" class="dropdown-item">Ofo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Onzo/" class="dropdown-item">Onzo (bikes, Location: New Zealand) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Pony/" class="dropdown-item">Pony</a>
+</li>
+                                    
+<li>
+    <a href="../Ryde/" class="dropdown-item">Ryde</a>
+</li>
+                                    
+<li>
+    <a href="../Scoota/" class="dropdown-item">Scoota (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Sigo/" class="dropdown-item">Sigo</a>
+</li>
+                                    
+<li>
+    <a href="../SocialBicycles/" class="dropdown-item">SocialBicycles (USA, Canada, Czech Republic, Poland)</a>
+</li>
+                                    
+<li>
+    <a href="../Spin/" class="dropdown-item">Spin (Bikes and Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Stella/" class="dropdown-item">stella</a>
+</li>
+                                    
+<li>
+    <a href="../Tier/" class="dropdown-item">Tier</a>
+</li>
+                                    
+<li>
+    <a href="../Ufo/" class="dropdown-item">Ufo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Vaimoo/" class="dropdown-item">Vaimoo</a>
+</li>
+                                    
+<li>
+    <a href="../VeloAntwerpen/" class="dropdown-item">Velo Antwerpen</a>
+</li>
+                                    
+<li>
+    <a href="../Voi/" class="dropdown-item">Introduction:</a>
+</li>
+                                    
+<li>
+    <a href="../WeShare/" class="dropdown-item">WeShare (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Wind/" class="dropdown-item">WIND (former BYKE)</a>
+</li>
+                                    
+<li>
+    <a href="../Yobike/" class="dropdown-item">Yobike and yobike-based provider (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Zagster/" class="dropdown-item">Zagster (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Zero/" class="dropdown-item">Zero (defunct)</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Link/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Mobike/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/RijulTP/mkdocs-liveapi/edit/master/docs/bikes/Miles.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#miles" class="nav-link">Miles</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#request-vehicles-by-lat-lng" class="nav-link">Request vehicles by lat, lng</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="miles">Miles</h1>
+<p><a href="https://miles-mobility.com/">Miles</a> is a car sharing company based in Germany providing vehicles in cities like Berlin, Hamburg, Munich, Potsdam, Cologne, Dusseldorf, Bonn and Duisburg</p>
+<p><code>GET</code>-Requests required for their API-Endpoints plus a unique DeviceKey which you can easily extract out as well without creating an account on the Miles app.</p>
+<h2 id="request-vehicles-by-lat-lng">Request vehicles by lat, lng</h2>
+<p>Miles public API allows querying vehicles based on the following 4 fields
+- latitude
+- longitude
+- latitude delta
+- longitude delta</p>
+<p>The API response contains either list of clusters or vehicles or both depending upon how large or small the values of latitude delta and longitude delta are. </p>
+<p>The following request will only return vehicles</p>
+<p><code>https://api.app.miles-mobility.com/mobile/Vehicles?deviceKey=&lt;YOUR_DEVICE_KEY&gt;&amp;latitude=52.46772&amp;longitude=13.507673&amp;latitudeDelta=0.021653345980664086&amp;longitudeDelta=0.016843199729919434&amp;userLatitude=25.11645255113832&amp;userLongitude=55.39148236389842&amp;lang=en&amp;FuelLevelFilterMin=0&amp;FuelLevelFilterMax=100&amp;VehicleSizeFilter=S,M,L,P&amp;vehicleEngineFilter=&amp;VehicleSeatsFilter=3,5&amp;VehicleTransmissionFilter=M,A&amp;zoomLevel=10&amp;showOnlyDiscountedVehicles=0&amp;showFuelingStations=0&amp;showChargingStations=0&amp;showMilesPartners=0</code></p>
+<pre><code class="language-json">{
+  &quot;Result&quot;: &quot;OK&quot;,
+  &quot;ResponseText&quot;: null,
+  &quot;Data&quot;: {
+    &quot;response&quot;: {
+      &quot;Result&quot;: &quot;OK&quot;,
+      &quot;ResponseText&quot;: &quot;&quot;,
+      &quot;idVehicleBooked&quot;: null,
+      &quot;idRide&quot;: null,
+      &quot;idVehicleInRide&quot;: null,
+      &quot;NearestIdCity&quot;: &quot;BER&quot;,
+      &quot;LivePayment&quot;: false,
+      &quot;TopUpRequired&quot;: false,
+      &quot;userAppVersion&quot;: 0.00,
+      &quot;nFilterElements&quot;: 0,
+      &quot;UserInOpsMode&quot;: false,
+      &quot;CloseForceDisplayVehicle&quot;: false,
+      &quot;SpecialAirportRate&quot;: &quot;{\&quot;previewBox\&quot;: [{\&quot;generalTittle\&quot;:\&quot;SPECIAL AIRPORT RATE\&quot;,\&quot;tariffTittle\&quot;:\&quot;AIRPORT RATE\&quot;,\&quot;tariffId\&quot;:\&quot;AIRP_BER\&quot;,\&quot;tariffName\&quot;:\&quot;BER \/ P &lt;&gt; BER airport\&quot;,\&quot;tariff\&quot;:\&quot;34€\&quot;,\&quot;tariff_numeric\&quot;:34.00,\&quot;tariff_ccy\&quot;:\&quot;EUR\&quot;,\&quot;tariff_old\&quot;:null,\&quot;tariff_old2\&quot;:null,\&quot;lower_row1\&quot;:\&quot;(!) You pay 34€ for each route.\&quot;,\&quot;lower_row2\&quot;:\&quot;incl. 1€ Unlock Fee\&quot;}],\&quot;descriptionTexts\&quot;: [{\&quot;row1\&quot;:\&quot;This rate includes 60 km max. distance, 90 minutes max. duration time incl. 20 minutes max. parking time.\&quot;,\&quot;info_title\&quot;:\&quot;Important information\&quot;,\&quot;info_text\&quot;:\&quot;Included within this airport rate: Unlock fee &amp; fuel \/ charging costs. In order to apply the rate, the start or end of the ride should happen at the BER airport, and comply with max 60 km distance &amp; 90 min ride duration. Otherwise, the best available standard rate will be applied.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;The cost of the selected rate will the charged when starting the rental.\&quot;,\&quot;confirmation_message\&quot;:\&quot;Apply the SPECIAL AIRPORT RATE to your ride?\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}],\&quot;rateDetails\&quot;: [{\&quot;title\&quot;:\&quot;Distance\&quot;,\&quot;text\&quot;:\&quot;60km\&quot;},{\&quot;title\&quot;:\&quot;Duration\&quot;,\&quot;text\&quot;:\&quot;90 min\&quot;},{\&quot;title\&quot;:\&quot;Pick up \/ Drop off\&quot;,\&quot;text\&quot;:\&quot;BER airport\&quot;}],\&quot;freeFeatures\&quot;: [{\&quot;text\&quot;:\&quot;Unlock Fee\&quot;,\&quot;text2\&quot;:\&quot;\&quot;},{\&quot;text\&quot;:\&quot;Parking minutes\&quot;,\&quot;text2\&quot;:\&quot;(limited to 20 minutes)\&quot;},{\&quot;text\&quot;:\&quot;Fueling \/ Charging\&quot;,\&quot;text2\&quot;:\&quot;(free fueling \/ charging on all stations shown in the app)\&quot;},{\&quot;text\&quot;:\&quot;Parking ticket\&quot;,\&quot;text2\&quot;:\&quot;\&quot;}],\&quot;extraCosts\&quot;: [{\&quot;text\&quot;:\&quot;&lt;u&gt;Parking tickets&lt;\/u&gt; for parking at &lt;u&gt;non&lt;\/u&gt; public parking spots\&quot;,\&quot;text2\&quot;:\&quot;(also parking outside our business area where a ticket is needed)\&quot;}]}&quot;,
+      &quot;SpecialAirportRate_E&quot;: &quot;{\&quot;previewBox\&quot;: [{\&quot;generalTittle\&quot;:\&quot;SPECIAL AIRPORT RATE\&quot;,\&quot;tariffTittle\&quot;:\&quot;AIRPORT RATE\&quot;,\&quot;tariffId\&quot;:\&quot;AIRP_BER\&quot;,\&quot;tariffName\&quot;:\&quot;BER \/ P &lt;&gt; BER airport\&quot;,\&quot;tariff\&quot;:\&quot;34€\&quot;,\&quot;tariff_numeric\&quot;:34.00,\&quot;tariff_ccy\&quot;:\&quot;EUR\&quot;,\&quot;tariff_old\&quot;:null,\&quot;tariff_old2\&quot;:null,\&quot;lower_row1\&quot;:\&quot;(!) You pay 34€ for each route.\&quot;,\&quot;lower_row2\&quot;:\&quot;incl. 1€ Unlock Fee\&quot;}],\&quot;descriptionTexts\&quot;: [{\&quot;row1\&quot;:\&quot;This rate includes 60 km max. distance, 90 minutes max. duration time incl. 20 minutes max. parking time.\&quot;,\&quot;info_title\&quot;:\&quot;Important information\&quot;,\&quot;info_text\&quot;:\&quot;Included within this airport rate: Unlock fee &amp; electricity costs. In order to apply the rate, the start or end of the ride should happen at the BER airport, and comply with max 60 km distance &amp; 90 min ride duration. Otherwise, the best available standard rate will be applied.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;The cost of the selected rate will the charged when starting the rental.\&quot;,\&quot;confirmation_message\&quot;:\&quot;Apply the SPECIAL AIRPORT RATE to your ride?\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}],\&quot;rateDetails\&quot;: [{\&quot;title\&quot;:\&quot;Distance\&quot;,\&quot;text\&quot;:\&quot;60km\&quot;},{\&quot;title\&quot;:\&quot;Duration\&quot;,\&quot;text\&quot;:\&quot;90 min\&quot;},{\&quot;title\&quot;:\&quot;Pick up \/ Drop off\&quot;,\&quot;text\&quot;:\&quot;BER airport\&quot;}],\&quot;freeFeatures\&quot;: [{\&quot;text\&quot;:\&quot;Unlock Fee\&quot;,\&quot;text2\&quot;:\&quot;\&quot;},{\&quot;text\&quot;:\&quot;Parking minutes\&quot;,\&quot;text2\&quot;:\&quot;(limited to 20 minutes)\&quot;},{\&quot;text\&quot;:\&quot;Electricity\&quot;,\&quot;text2\&quot;:\&quot;(free charging at the charging stations shown in the app)\&quot;},{\&quot;text\&quot;:\&quot;Parking ticket\&quot;,\&quot;text2\&quot;:\&quot;\&quot;}],\&quot;extraCosts\&quot;: [{\&quot;text\&quot;:\&quot;&lt;u&gt;Parking tickets&lt;\/u&gt; for parking at &lt;u&gt;non&lt;\/u&gt; public parking spots\&quot;,\&quot;text2\&quot;:\&quot;(also parking outside our business area where a ticket is needed)\&quot;}]}&quot;,
+      &quot;SpecialAirportRate_2&quot;: null,
+      &quot;SpecialAirportRate_E_2&quot;: null,
+      &quot;UsesPPC&quot;: false,
+      &quot;CurrentSubscription&quot;: null,
+      &quot;JSONCityAreas&quot;: &quot;&quot;,
+      &quot;CityAreasTimestamp&quot;: &quot;2001-01-01T00:00:00&quot;,
+      &quot;AdditionalInfo&quot;: &quot;{ \&quot;MinZoomPA\&quot;: 12, \&quot;DeltaPA\&quot;: 3.00, \&quot;HubAutoOpen\&quot;: 17, \&quot;Banner\&quot;: null}&quot;
+    },
+    &quot;vehicles&quot;: [
+      {
+        &quot;idVehicle&quot;: 1533,
+        &quot;idCity&quot;: &quot;BER&quot;,
+        &quot;LicensePlate&quot;: &quot;B-MI 1543&quot;,
+        &quot;VehicleType&quot;: &quot;VW T6&quot;,
+        &quot;VehicleColor&quot;: &quot;Silver&quot;,
+        &quot;VehicleSize&quot;: &quot;L&quot;,
+        &quot;isElectric&quot;: false,
+        &quot;Latitude&quot;: 52.4692535,
+        &quot;Longitude&quot;: 13.5072451,
+        &quot;DistanceFromUserPosition&quot;: 4633971.34,
+        &quot;DistanceFromMiddlePosition&quot;: 173.16,
+        &quot;idVehicleStatus&quot;: &quot;DEPLOYED_FOR_RENTAL&quot;,
+        &quot;GSMCoverage&quot;: 4,
+        &quot;SatelliteNumber&quot;: 15,
+        &quot;RentalPrice_row1&quot;: &quot;1.29€&quot;,
+        &quot;RentalPrice_row1unit&quot;: &quot;/km&quot;,
+        &quot;RentalPrice_discounted&quot;: null,
+        &quot;RentalPrice_row2&quot;: &quot;+1€ unlock fee | P 0.29€/min&quot;,
+        &quot;RentalPrice_discountSource&quot;: null,
+        &quot;ParkingPrice&quot;: &quot;0.29€&quot;,
+        &quot;ParkingPrice_discounted&quot;: null,
+        &quot;ParkingPrice_unit&quot;: &quot;/min&quot;,
+        &quot;UnlockFee&quot;: &quot;1.00€&quot;,
+        &quot;UnlockFee_discounted&quot;: null,
+        &quot;UnlockFee_unit&quot;: &quot;/trip&quot;,
+        &quot;FuelPct&quot;: &quot;44%&quot;,
+        &quot;FuelLevelIcon&quot;: 2,
+        &quot;RemainingRange&quot;: &quot;352km&quot;,
+        &quot;EVPlugged&quot;: false,
+        &quot;JSONFullVehicleDetails&quot;: &quot;{\&quot;standardPricing\&quot;: [{\&quot;priceInfo\&quot;:\&quot;1.29€\/km\&quot;,\&quot;additionalInfo\&quot;:\&quot;+1€ unlock fee\&quot;,\&quot;additionalInfo2\&quot;:\&quot;+1€ unlock fee, incl. fuel\&quot;,\&quot;tariffID\&quot;:\&quot;STANDARD_PERKM\&quot;,\&quot;tariffTitle\&quot;:\&quot;KM RATE\&quot;,\&quot;unlockFee\&quot;:1.00,\&quot;unlockFee_discounted\&quot;:null,\&quot;perKmFee\&quot;:1.29,\&quot;perKmFee_discounted\&quot;:null,\&quot;preBookingFeePerMinute\&quot;:0.09,\&quot;preBookingFeePerMinute_discounted\&quot;:null,\&quot;parkingFeePerMinute\&quot;:0.29,\&quot;parkingFeePerMinute_discounted\&quot;:null,\&quot;bookingRepeatRestriction_h\&quot;:2,\&quot;isElectric\&quot;:false}],\&quot;prepaidRateList\&quot;: [{\&quot;listItem\&quot;:\&quot;24h (incl. 125km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;99€\&quot;,\&quot;price_numeric\&quot;:99.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;3h (incl. 40km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;45€\&quot;,\&quot;price_numeric\&quot;:45.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;per extra km\&quot;,\&quot;price\&quot;:\&quot;0.49€\&quot;,\&quot;price_numeric\&quot;:0.49,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:false}],\&quot;vehicleDetails\&quot;: [{\&quot;key\&quot;:\&quot;vehicle_details_engine_power\&quot;,\&quot;item\&quot;:\&quot;Engine Power\&quot;,\&quot;value\&quot;:\&quot;84PS\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_seats\&quot;,\&quot;item\&quot;:\&quot;Seats\&quot;,\&quot;value\&quot;:\&quot;3\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_transmission\&quot;,\&quot;item\&quot;:\&quot;Transmission\&quot;,\&quot;value\&quot;:\&quot;Manual\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_fuel\&quot;,\&quot;item\&quot;:\&quot;Fuel\&quot;,\&quot;value\&quot;:\&quot;Diesel\&quot;}],\&quot;OptimalRateSelector_Hours\&quot;: [{\&quot;txtDuration\&quot;:\&quot;3 h\&quot;,\&quot;nHours\&quot;:3},{\&quot;txtDuration\&quot;:\&quot;6 h\&quot;,\&quot;nHours\&quot;:6},{\&quot;txtDuration\&quot;:\&quot;1 day\&quot;,\&quot;nHours\&quot;:24},{\&quot;txtDuration\&quot;:\&quot;2 days\&quot;,\&quot;nHours\&quot;:48},{\&quot;txtDuration\&quot;:\&quot;3 days\&quot;,\&quot;nHours\&quot;:72},{\&quot;txtDuration\&quot;:\&quot;4 days\&quot;,\&quot;nHours\&quot;:96},{\&quot;txtDuration\&quot;:\&quot;5 days\&quot;,\&quot;nHours\&quot;:120},{\&quot;txtDuration\&quot;:\&quot;6 days\&quot;,\&quot;nHours\&quot;:144},{\&quot;txtDuration\&quot;:\&quot;7 days\&quot;,\&quot;nHours\&quot;:168},{\&quot;txtDuration\&quot;:\&quot;8 days\&quot;,\&quot;nHours\&quot;:192},{\&quot;txtDuration\&quot;:\&quot;9 days\&quot;,\&quot;nHours\&quot;:216},{\&quot;txtDuration\&quot;:\&quot;10 days\&quot;,\&quot;nHours\&quot;:240},{\&quot;txtDuration\&quot;:\&quot;11 days\&quot;,\&quot;nHours\&quot;:264},{\&quot;txtDuration\&quot;:\&quot;12 days\&quot;,\&quot;nHours\&quot;:288},{\&quot;txtDuration\&quot;:\&quot;13 days\&quot;,\&quot;nHours\&quot;:312},{\&quot;txtDuration\&quot;:\&quot;14 days\&quot;,\&quot;nHours\&quot;:336},{\&quot;txtDuration\&quot;:\&quot;15 days\&quot;,\&quot;nHours\&quot;:360},{\&quot;txtDuration\&quot;:\&quot;16 days\&quot;,\&quot;nHours\&quot;:384},{\&quot;txtDuration\&quot;:\&quot;17 days\&quot;,\&quot;nHours\&quot;:408},{\&quot;txtDuration\&quot;:\&quot;18 days\&quot;,\&quot;nHours\&quot;:432},{\&quot;txtDuration\&quot;:\&quot;19 days\&quot;,\&quot;nHours\&quot;:456},{\&quot;txtDuration\&quot;:\&quot;20 days\&quot;,\&quot;nHours\&quot;:480},{\&quot;txtDuration\&quot;:\&quot;21 days\&quot;,\&quot;nHours\&quot;:504},{\&quot;txtDuration\&quot;:\&quot;22 days\&quot;,\&quot;nHours\&quot;:528},{\&quot;txtDuration\&quot;:\&quot;23 days\&quot;,\&quot;nHours\&quot;:552},{\&quot;txtDuration\&quot;:\&quot;24 days\&quot;,\&quot;nHours\&quot;:576},{\&quot;txtDuration\&quot;:\&quot;25 days\&quot;,\&quot;nHours\&quot;:600},{\&quot;txtDuration\&quot;:\&quot;26 days\&quot;,\&quot;nHours\&quot;:624},{\&quot;txtDuration\&quot;:\&quot;27 days\&quot;,\&quot;nHours\&quot;:648},{\&quot;txtDuration\&quot;:\&quot;28 days\&quot;,\&quot;nHours\&quot;:672},{\&quot;txtDuration\&quot;:\&quot;29 days\&quot;,\&quot;nHours\&quot;:696},{\&quot;txtDuration\&quot;:\&quot;30 days\&quot;,\&quot;nHours\&quot;:720}],\&quot;stardardRate_descriptionTexts\&quot;: [[{\&quot;row1\&quot;:\&quot;This is our standard km rate! This will be automatically applied if you start your ride. This will be the best rate if you don't know how long your trip will take.\&quot;,\&quot;row1_discounted\&quot;:\&quot;This is our discounted km rate. This will be automatically applied if you start your ride with this vehicle and no other rate was applied. Please note that the reduced km rate is not applied to subsequent rides as well as cancelled or expired reservations.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;Included within this km rate:\&quot;,\&quot;lower_text\&quot;:\&quot;Fuel costs (partner stations). No extra parking ticket for paid public parking in our business area needed.\&quot;,\&quot;lower_warning\&quot;:\&quot;⚠️ Should your ride be longer and reach the terms and specification of a better and cheaper day rate, the cheaper rate will automatically be applied.\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}]],\&quot;stardardRate_details\&quot;: [[{\&quot;title\&quot;:\&quot;km\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:true},{\&quot;title\&quot;:\&quot;Unlock Fee\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Parking minutes\&quot;,\&quot;subtitle\&quot;:\&quot;in compliance with the booking duration time\&quot;,\&quot;price\&quot;:\&quot;0.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Fuel\&quot;,\&quot;subtitle\&quot;:\&quot;free refueling at our partner gas stations\&quot;,\&quot;price\&quot;:\&quot;0€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false}]],\&quot;vehicleBanner\&quot;: [{\&quot;color\&quot;:\&quot;\&quot;,\&quot;text\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;delay\&quot;:\&quot;\&quot;,\&quot;clickAction\&quot;:\&quot;\&quot;}],\&quot;vehicleDescriptors\&quot;: {\&quot;detailsText\&quot;:\&quot;This vehicle runs with a key! The key can be found in the glove box. Please ensure to put the key back to the key holder as soon you end your ride.\&quot;,\&quot;isCharity\&quot;:false,\&quot;text1\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;text3\&quot;:\&quot;\&quot;,\&quot;text4\&quot;:\&quot;\&quot;,\&quot;text5\&quot;:\&quot;\&quot;},\&quot;vehicleExtras\&quot;: {\&quot;item\&quot;:\&quot;vehicle_extras_navigator\&quot;,\&quot;itemvalue\&quot;:\&quot;Yes\&quot;}}&quot;,
+        &quot;FVDPrice&quot;: &quot;1.29€&quot;,
+        &quot;URLVehicleImage&quot;: &quot;https://api.app.miles-mobility.com/static/img/cars/small/VWT6.png&quot;,
+        &quot;JSONVehicleDamages&quot;: &quot;[{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scratch @ Sidewall: Two hands\&quot;, \&quot;Scratch @ Sidewall: Three hands\&quot;, \&quot;Scratch @ Sidewall: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Sidewall: Two hands\&quot;, \&quot;Bump/dent @ Sidewall: Three hands\&quot;, \&quot;Scratch @ Sliding door: More than three hands\&quot;, \&quot;Scratch @ Sliding door: One hand\&quot;, \&quot;Scuffed @ Fender: Two hands\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Side panel: More than three hands\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Trunklid: Three hands\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Broken @ Exterior mirror\&quot;, \&quot;Missing @ Bumper: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Trunklid: One hand\&quot;]}]&quot;,
+        &quot;SpecialAirportRate&quot;: null,
+        &quot;SpecialRates&quot;: null,
+        &quot;ShowSpecialAirportRate&quot;: false,
+        &quot;nDaysRookieDelay&quot;: 0,
+        &quot;CityToCityOptions&quot;: &quot;{\&quot;OriginCity\&quot;: \&quot;BERLIN\&quot;, \&quot;Destinations\&quot;: [{\&quot;idCity\&quot;:\&quot;BNN\&quot;,\&quot;Destination\&quot;:\&quot;Bonn\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;CGN\&quot;,\&quot;Destination\&quot;:\&quot;Cologne\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUI\&quot;,\&quot;Destination\&quot;:\&quot;Duisburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUS\&quot;,\&quot;Destination\&quot;:\&quot;Düsseldorf\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;HAM\&quot;,\&quot;Destination\&quot;:\&quot;Hamburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;MUC\&quot;,\&quot;Destination\&quot;:\&quot;Munich\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;PTD\&quot;,\&quot;Destination\&quot;:\&quot;Potsdam\&quot;,\&quot;Price\&quot;:\&quot;0€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;}], \&quot;NotPossibleDestinations\&quot;: null}&quot;,
+        &quot;PremiumRestrictedTxt&quot;: &quot;&quot;,
+        &quot;RookieDelayTxt&quot;: &quot;&quot;
+      },
+      {
+        &quot;idVehicle&quot;: 3183,
+        &quot;idCity&quot;: &quot;BER&quot;,
+        &quot;LicensePlate&quot;: &quot;B-MI 1621&quot;,
+        &quot;VehicleType&quot;: &quot;VW Crafter Automatic&quot;,
+        &quot;VehicleColor&quot;: &quot;Silver&quot;,
+        &quot;VehicleSize&quot;: &quot;L&quot;,
+        &quot;isElectric&quot;: false,
+        &quot;Latitude&quot;: 52.46903,
+        &quot;Longitude&quot;: 13.5091572,
+        &quot;DistanceFromUserPosition&quot;: 4633842.63,
+        &quot;DistanceFromMiddlePosition&quot;: 177.07,
+        &quot;idVehicleStatus&quot;: &quot;DEPLOYED_FOR_RENTAL&quot;,
+        &quot;GSMCoverage&quot;: 2,
+        &quot;SatelliteNumber&quot;: 19,
+        &quot;RentalPrice_row1&quot;: &quot;1.29€&quot;,
+        &quot;RentalPrice_row1unit&quot;: &quot;/km&quot;,
+        &quot;RentalPrice_discounted&quot;: null,
+        &quot;RentalPrice_row2&quot;: &quot;+1€ unlock fee | P 0.29€/min&quot;,
+        &quot;RentalPrice_discountSource&quot;: null,
+        &quot;ParkingPrice&quot;: &quot;0.29€&quot;,
+        &quot;ParkingPrice_discounted&quot;: null,
+        &quot;ParkingPrice_unit&quot;: &quot;/min&quot;,
+        &quot;UnlockFee&quot;: &quot;1.00€&quot;,
+        &quot;UnlockFee_discounted&quot;: null,
+        &quot;UnlockFee_unit&quot;: &quot;/trip&quot;,
+        &quot;FuelPct&quot;: &quot;100%&quot;,
+        &quot;FuelLevelIcon&quot;: 4,
+        &quot;RemainingRange&quot;: &quot;820km&quot;,
+        &quot;EVPlugged&quot;: false,
+        &quot;JSONFullVehicleDetails&quot;: &quot;{\&quot;standardPricing\&quot;: [{\&quot;priceInfo\&quot;:\&quot;1.29€\/km\&quot;,\&quot;additionalInfo\&quot;:\&quot;+1€ unlock fee\&quot;,\&quot;additionalInfo2\&quot;:\&quot;+1€ unlock fee, incl. fuel\&quot;,\&quot;tariffID\&quot;:\&quot;STANDARD_PERKM\&quot;,\&quot;tariffTitle\&quot;:\&quot;KM RATE\&quot;,\&quot;unlockFee\&quot;:1.00,\&quot;unlockFee_discounted\&quot;:null,\&quot;perKmFee\&quot;:1.29,\&quot;perKmFee_discounted\&quot;:null,\&quot;preBookingFeePerMinute\&quot;:0.09,\&quot;preBookingFeePerMinute_discounted\&quot;:null,\&quot;parkingFeePerMinute\&quot;:0.29,\&quot;parkingFeePerMinute_discounted\&quot;:null,\&quot;bookingRepeatRestriction_h\&quot;:2,\&quot;isElectric\&quot;:false}],\&quot;prepaidRateList\&quot;: [{\&quot;listItem\&quot;:\&quot;24h (incl. 125km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;99€\&quot;,\&quot;price_numeric\&quot;:99.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;3h (incl. 40km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;45€\&quot;,\&quot;price_numeric\&quot;:45.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;per extra km\&quot;,\&quot;price\&quot;:\&quot;0.49€\&quot;,\&quot;price_numeric\&quot;:0.49,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:false}],\&quot;vehicleDetails\&quot;: [{\&quot;key\&quot;:\&quot;vehicle_details_engine_power\&quot;,\&quot;item\&quot;:\&quot;Engine Power\&quot;,\&quot;value\&quot;:\&quot;100PS\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_seats\&quot;,\&quot;item\&quot;:\&quot;Seats\&quot;,\&quot;value\&quot;:\&quot;3\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_transmission\&quot;,\&quot;item\&quot;:\&quot;Transmission\&quot;,\&quot;value\&quot;:\&quot;Automatic\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_fuel\&quot;,\&quot;item\&quot;:\&quot;Fuel\&quot;,\&quot;value\&quot;:\&quot;Diesel\&quot;}],\&quot;OptimalRateSelector_Hours\&quot;: [{\&quot;txtDuration\&quot;:\&quot;3 h\&quot;,\&quot;nHours\&quot;:3},{\&quot;txtDuration\&quot;:\&quot;6 h\&quot;,\&quot;nHours\&quot;:6},{\&quot;txtDuration\&quot;:\&quot;1 day\&quot;,\&quot;nHours\&quot;:24},{\&quot;txtDuration\&quot;:\&quot;2 days\&quot;,\&quot;nHours\&quot;:48},{\&quot;txtDuration\&quot;:\&quot;3 days\&quot;,\&quot;nHours\&quot;:72},{\&quot;txtDuration\&quot;:\&quot;4 days\&quot;,\&quot;nHours\&quot;:96},{\&quot;txtDuration\&quot;:\&quot;5 days\&quot;,\&quot;nHours\&quot;:120},{\&quot;txtDuration\&quot;:\&quot;6 days\&quot;,\&quot;nHours\&quot;:144},{\&quot;txtDuration\&quot;:\&quot;7 days\&quot;,\&quot;nHours\&quot;:168},{\&quot;txtDuration\&quot;:\&quot;8 days\&quot;,\&quot;nHours\&quot;:192},{\&quot;txtDuration\&quot;:\&quot;9 days\&quot;,\&quot;nHours\&quot;:216},{\&quot;txtDuration\&quot;:\&quot;10 days\&quot;,\&quot;nHours\&quot;:240},{\&quot;txtDuration\&quot;:\&quot;11 days\&quot;,\&quot;nHours\&quot;:264},{\&quot;txtDuration\&quot;:\&quot;12 days\&quot;,\&quot;nHours\&quot;:288},{\&quot;txtDuration\&quot;:\&quot;13 days\&quot;,\&quot;nHours\&quot;:312},{\&quot;txtDuration\&quot;:\&quot;14 days\&quot;,\&quot;nHours\&quot;:336},{\&quot;txtDuration\&quot;:\&quot;15 days\&quot;,\&quot;nHours\&quot;:360},{\&quot;txtDuration\&quot;:\&quot;16 days\&quot;,\&quot;nHours\&quot;:384},{\&quot;txtDuration\&quot;:\&quot;17 days\&quot;,\&quot;nHours\&quot;:408},{\&quot;txtDuration\&quot;:\&quot;18 days\&quot;,\&quot;nHours\&quot;:432},{\&quot;txtDuration\&quot;:\&quot;19 days\&quot;,\&quot;nHours\&quot;:456},{\&quot;txtDuration\&quot;:\&quot;20 days\&quot;,\&quot;nHours\&quot;:480},{\&quot;txtDuration\&quot;:\&quot;21 days\&quot;,\&quot;nHours\&quot;:504},{\&quot;txtDuration\&quot;:\&quot;22 days\&quot;,\&quot;nHours\&quot;:528},{\&quot;txtDuration\&quot;:\&quot;23 days\&quot;,\&quot;nHours\&quot;:552},{\&quot;txtDuration\&quot;:\&quot;24 days\&quot;,\&quot;nHours\&quot;:576},{\&quot;txtDuration\&quot;:\&quot;25 days\&quot;,\&quot;nHours\&quot;:600},{\&quot;txtDuration\&quot;:\&quot;26 days\&quot;,\&quot;nHours\&quot;:624},{\&quot;txtDuration\&quot;:\&quot;27 days\&quot;,\&quot;nHours\&quot;:648},{\&quot;txtDuration\&quot;:\&quot;28 days\&quot;,\&quot;nHours\&quot;:672},{\&quot;txtDuration\&quot;:\&quot;29 days\&quot;,\&quot;nHours\&quot;:696},{\&quot;txtDuration\&quot;:\&quot;30 days\&quot;,\&quot;nHours\&quot;:720}],\&quot;stardardRate_descriptionTexts\&quot;: [[{\&quot;row1\&quot;:\&quot;This is our standard km rate! This will be automatically applied if you start your ride. This will be the best rate if you don't know how long your trip will take.\&quot;,\&quot;row1_discounted\&quot;:\&quot;This is our discounted km rate. This will be automatically applied if you start your ride with this vehicle and no other rate was applied. Please note that the reduced km rate is not applied to subsequent rides as well as cancelled or expired reservations.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;Included within this km rate:\&quot;,\&quot;lower_text\&quot;:\&quot;Fuel costs (partner stations). No extra parking ticket for paid public parking in our business area needed.\&quot;,\&quot;lower_warning\&quot;:\&quot;⚠️ Should your ride be longer and reach the terms and specification of a better and cheaper day rate, the cheaper rate will automatically be applied.\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}]],\&quot;stardardRate_details\&quot;: [[{\&quot;title\&quot;:\&quot;km\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:true},{\&quot;title\&quot;:\&quot;Unlock Fee\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Parking minutes\&quot;,\&quot;subtitle\&quot;:\&quot;in compliance with the booking duration time\&quot;,\&quot;price\&quot;:\&quot;0.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Fuel\&quot;,\&quot;subtitle\&quot;:\&quot;free refueling at our partner gas stations\&quot;,\&quot;price\&quot;:\&quot;0€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false}]],\&quot;vehicleBanner\&quot;: [{\&quot;color\&quot;:\&quot;\&quot;,\&quot;text\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;delay\&quot;:\&quot;\&quot;,\&quot;clickAction\&quot;:\&quot;\&quot;}],\&quot;vehicleDescriptors\&quot;: {\&quot;detailsText\&quot;:\&quot;This is a keyless vehicle! Please press the break pedal and start the engine via the START\/STOP button in the vehicle.\&quot;,\&quot;isCharity\&quot;:false,\&quot;text1\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;text3\&quot;:\&quot;\&quot;,\&quot;text4\&quot;:\&quot;\&quot;,\&quot;text5\&quot;:\&quot;\&quot;},\&quot;vehicleExtras\&quot;: {\&quot;item\&quot;:\&quot;vehicle_extras_navigator\&quot;,\&quot;itemvalue\&quot;:\&quot;Yes\&quot;}}&quot;,
+        &quot;FVDPrice&quot;: &quot;1.29€&quot;,
+        &quot;URLVehicleImage&quot;: &quot;https://api.app.miles-mobility.com/static/img/cars/small/VWcRAFTER.png&quot;,
+        &quot;JSONVehicleDamages&quot;: &quot;[{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Side panel: More than three hands\&quot;, \&quot;Broken @ Lights\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Side panel: Two hands\&quot;, \&quot;Bump/dent @ Sliding door: One hand\&quot;, \&quot;Bump/dent @ Side panel: More than three hands\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Fender: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Trunklid: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Side panel: Three hands\&quot;]}]&quot;,
+        &quot;SpecialAirportRate&quot;: null,
+        &quot;SpecialRates&quot;: null,
+        &quot;ShowSpecialAirportRate&quot;: false,
+        &quot;nDaysRookieDelay&quot;: 0,
+        &quot;CityToCityOptions&quot;: &quot;{\&quot;OriginCity\&quot;: \&quot;BERLIN\&quot;, \&quot;Destinations\&quot;: [{\&quot;idCity\&quot;:\&quot;BNN\&quot;,\&quot;Destination\&quot;:\&quot;Bonn\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;CGN\&quot;,\&quot;Destination\&quot;:\&quot;Cologne\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUI\&quot;,\&quot;Destination\&quot;:\&quot;Duisburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUS\&quot;,\&quot;Destination\&quot;:\&quot;Düsseldorf\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;HAM\&quot;,\&quot;Destination\&quot;:\&quot;Hamburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;MUC\&quot;,\&quot;Destination\&quot;:\&quot;Munich\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;PTD\&quot;,\&quot;Destination\&quot;:\&quot;Potsdam\&quot;,\&quot;Price\&quot;:\&quot;0€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;}], \&quot;NotPossibleDestinations\&quot;: null}&quot;,
+        &quot;PremiumRestrictedTxt&quot;: &quot;&quot;,
+        &quot;RookieDelayTxt&quot;: &quot;&quot;
+      },
+      {
+        &quot;idVehicle&quot;: 3239,
+        &quot;idCity&quot;: &quot;BER&quot;,
+        &quot;LicensePlate&quot;: &quot;B-MI 4473&quot;,
+        &quot;VehicleType&quot;: &quot;VW Crafter Automatic&quot;,
+        &quot;VehicleColor&quot;: &quot;Silver&quot;,
+        &quot;VehicleSize&quot;: &quot;L&quot;,
+        &quot;isElectric&quot;: false,
+        &quot;Latitude&quot;: 52.46577,
+        &quot;Longitude&quot;: 13.506671,
+        &quot;DistanceFromUserPosition&quot;: 4633846.57,
+        &quot;DistanceFromMiddlePosition&quot;: 227.32,
+        &quot;idVehicleStatus&quot;: &quot;DEPLOYED_FOR_RENTAL&quot;,
+        &quot;GSMCoverage&quot;: 3,
+        &quot;SatelliteNumber&quot;: 16,
+        &quot;RentalPrice_row1&quot;: &quot;1.29€&quot;,
+        &quot;RentalPrice_row1unit&quot;: &quot;/km&quot;,
+        &quot;RentalPrice_discounted&quot;: null,
+        &quot;RentalPrice_row2&quot;: &quot;+1€ unlock fee | P 0.29€/min&quot;,
+        &quot;RentalPrice_discountSource&quot;: null,
+        &quot;ParkingPrice&quot;: &quot;0.29€&quot;,
+        &quot;ParkingPrice_discounted&quot;: null,
+        &quot;ParkingPrice_unit&quot;: &quot;/min&quot;,
+        &quot;UnlockFee&quot;: &quot;1.00€&quot;,
+        &quot;UnlockFee_discounted&quot;: null,
+        &quot;UnlockFee_unit&quot;: &quot;/trip&quot;,
+        &quot;FuelPct&quot;: &quot;18%&quot;,
+        &quot;FuelLevelIcon&quot;: 1,
+        &quot;RemainingRange&quot;: &quot;147km&quot;,
+        &quot;EVPlugged&quot;: false,
+        &quot;JSONFullVehicleDetails&quot;: &quot;{\&quot;standardPricing\&quot;: [{\&quot;priceInfo\&quot;:\&quot;1.29€\/km\&quot;,\&quot;additionalInfo\&quot;:\&quot;+1€ unlock fee\&quot;,\&quot;additionalInfo2\&quot;:\&quot;+1€ unlock fee, incl. fuel\&quot;,\&quot;tariffID\&quot;:\&quot;STANDARD_PERKM\&quot;,\&quot;tariffTitle\&quot;:\&quot;KM RATE\&quot;,\&quot;unlockFee\&quot;:1.00,\&quot;unlockFee_discounted\&quot;:null,\&quot;perKmFee\&quot;:1.29,\&quot;perKmFee_discounted\&quot;:null,\&quot;preBookingFeePerMinute\&quot;:0.09,\&quot;preBookingFeePerMinute_discounted\&quot;:null,\&quot;parkingFeePerMinute\&quot;:0.29,\&quot;parkingFeePerMinute_discounted\&quot;:null,\&quot;bookingRepeatRestriction_h\&quot;:2,\&quot;isElectric\&quot;:false}],\&quot;prepaidRateList\&quot;: [{\&quot;listItem\&quot;:\&quot;24h (incl. 125km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;99€\&quot;,\&quot;price_numeric\&quot;:99.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;3h (incl. 40km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;45€\&quot;,\&quot;price_numeric\&quot;:45.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;per extra km\&quot;,\&quot;price\&quot;:\&quot;0.49€\&quot;,\&quot;price_numeric\&quot;:0.49,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:false}],\&quot;vehicleDetails\&quot;: [{\&quot;key\&quot;:\&quot;vehicle_details_engine_power\&quot;,\&quot;item\&quot;:\&quot;Engine Power\&quot;,\&quot;value\&quot;:\&quot;100PS\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_seats\&quot;,\&quot;item\&quot;:\&quot;Seats\&quot;,\&quot;value\&quot;:\&quot;3\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_transmission\&quot;,\&quot;item\&quot;:\&quot;Transmission\&quot;,\&quot;value\&quot;:\&quot;Automatic\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_fuel\&quot;,\&quot;item\&quot;:\&quot;Fuel\&quot;,\&quot;value\&quot;:\&quot;Diesel\&quot;}],\&quot;OptimalRateSelector_Hours\&quot;: [{\&quot;txtDuration\&quot;:\&quot;3 h\&quot;,\&quot;nHours\&quot;:3},{\&quot;txtDuration\&quot;:\&quot;6 h\&quot;,\&quot;nHours\&quot;:6},{\&quot;txtDuration\&quot;:\&quot;1 day\&quot;,\&quot;nHours\&quot;:24},{\&quot;txtDuration\&quot;:\&quot;2 days\&quot;,\&quot;nHours\&quot;:48},{\&quot;txtDuration\&quot;:\&quot;3 days\&quot;,\&quot;nHours\&quot;:72},{\&quot;txtDuration\&quot;:\&quot;4 days\&quot;,\&quot;nHours\&quot;:96},{\&quot;txtDuration\&quot;:\&quot;5 days\&quot;,\&quot;nHours\&quot;:120},{\&quot;txtDuration\&quot;:\&quot;6 days\&quot;,\&quot;nHours\&quot;:144},{\&quot;txtDuration\&quot;:\&quot;7 days\&quot;,\&quot;nHours\&quot;:168},{\&quot;txtDuration\&quot;:\&quot;8 days\&quot;,\&quot;nHours\&quot;:192},{\&quot;txtDuration\&quot;:\&quot;9 days\&quot;,\&quot;nHours\&quot;:216},{\&quot;txtDuration\&quot;:\&quot;10 days\&quot;,\&quot;nHours\&quot;:240},{\&quot;txtDuration\&quot;:\&quot;11 days\&quot;,\&quot;nHours\&quot;:264},{\&quot;txtDuration\&quot;:\&quot;12 days\&quot;,\&quot;nHours\&quot;:288},{\&quot;txtDuration\&quot;:\&quot;13 days\&quot;,\&quot;nHours\&quot;:312},{\&quot;txtDuration\&quot;:\&quot;14 days\&quot;,\&quot;nHours\&quot;:336},{\&quot;txtDuration\&quot;:\&quot;15 days\&quot;,\&quot;nHours\&quot;:360},{\&quot;txtDuration\&quot;:\&quot;16 days\&quot;,\&quot;nHours\&quot;:384},{\&quot;txtDuration\&quot;:\&quot;17 days\&quot;,\&quot;nHours\&quot;:408},{\&quot;txtDuration\&quot;:\&quot;18 days\&quot;,\&quot;nHours\&quot;:432},{\&quot;txtDuration\&quot;:\&quot;19 days\&quot;,\&quot;nHours\&quot;:456},{\&quot;txtDuration\&quot;:\&quot;20 days\&quot;,\&quot;nHours\&quot;:480},{\&quot;txtDuration\&quot;:\&quot;21 days\&quot;,\&quot;nHours\&quot;:504},{\&quot;txtDuration\&quot;:\&quot;22 days\&quot;,\&quot;nHours\&quot;:528},{\&quot;txtDuration\&quot;:\&quot;23 days\&quot;,\&quot;nHours\&quot;:552},{\&quot;txtDuration\&quot;:\&quot;24 days\&quot;,\&quot;nHours\&quot;:576},{\&quot;txtDuration\&quot;:\&quot;25 days\&quot;,\&quot;nHours\&quot;:600},{\&quot;txtDuration\&quot;:\&quot;26 days\&quot;,\&quot;nHours\&quot;:624},{\&quot;txtDuration\&quot;:\&quot;27 days\&quot;,\&quot;nHours\&quot;:648},{\&quot;txtDuration\&quot;:\&quot;28 days\&quot;,\&quot;nHours\&quot;:672},{\&quot;txtDuration\&quot;:\&quot;29 days\&quot;,\&quot;nHours\&quot;:696},{\&quot;txtDuration\&quot;:\&quot;30 days\&quot;,\&quot;nHours\&quot;:720}],\&quot;stardardRate_descriptionTexts\&quot;: [[{\&quot;row1\&quot;:\&quot;This is our standard km rate! This will be automatically applied if you start your ride. This will be the best rate if you don't know how long your trip will take.\&quot;,\&quot;row1_discounted\&quot;:\&quot;This is our discounted km rate. This will be automatically applied if you start your ride with this vehicle and no other rate was applied. Please note that the reduced km rate is not applied to subsequent rides as well as cancelled or expired reservations.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;Included within this km rate:\&quot;,\&quot;lower_text\&quot;:\&quot;Fuel costs (partner stations). No extra parking ticket for paid public parking in our business area needed.\&quot;,\&quot;lower_warning\&quot;:\&quot;⚠️ Should your ride be longer and reach the terms and specification of a better and cheaper day rate, the cheaper rate will automatically be applied.\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}]],\&quot;stardardRate_details\&quot;: [[{\&quot;title\&quot;:\&quot;km\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:true},{\&quot;title\&quot;:\&quot;Unlock Fee\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Parking minutes\&quot;,\&quot;subtitle\&quot;:\&quot;in compliance with the booking duration time\&quot;,\&quot;price\&quot;:\&quot;0.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Fuel\&quot;,\&quot;subtitle\&quot;:\&quot;free refueling at our partner gas stations\&quot;,\&quot;price\&quot;:\&quot;0€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false}]],\&quot;vehicleBanner\&quot;: [{\&quot;color\&quot;:\&quot;\&quot;,\&quot;text\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;delay\&quot;:\&quot;\&quot;,\&quot;clickAction\&quot;:\&quot;\&quot;}],\&quot;vehicleDescriptors\&quot;: {\&quot;detailsText\&quot;:\&quot;This is a keyless vehicle! Please press the break pedal and start the engine via the START\/STOP button in the vehicle.\&quot;,\&quot;isCharity\&quot;:false,\&quot;text1\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;text3\&quot;:\&quot;\&quot;,\&quot;text4\&quot;:\&quot;\&quot;,\&quot;text5\&quot;:\&quot;\&quot;},\&quot;vehicleExtras\&quot;: {\&quot;item\&quot;:\&quot;vehicle_extras_navigator\&quot;,\&quot;itemvalue\&quot;:\&quot;Yes\&quot;}}&quot;,
+        &quot;FVDPrice&quot;: &quot;1.29€&quot;,
+        &quot;URLVehicleImage&quot;: &quot;https://api.app.miles-mobility.com/static/img/cars/small/VWcRAFTER.png&quot;,
+        &quot;JSONVehicleDamages&quot;: &quot;[{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Side panel: Two hands\&quot;, \&quot;Bump/dent @ Door: Two hands\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scratch @ Exterior mirror\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scratch @ Exterior mirror\&quot;, \&quot;Bump/dent @ Bumper: Two hands\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Door: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Trunklid: Two hands\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Side panel: Two hands\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Fender: Two hands\&quot;, \&quot;Missing @ Door: One hand\&quot;]}]&quot;,
+        &quot;SpecialAirportRate&quot;: null,
+        &quot;SpecialRates&quot;: null,
+        &quot;ShowSpecialAirportRate&quot;: false,
+        &quot;nDaysRookieDelay&quot;: 0,
+        &quot;CityToCityOptions&quot;: &quot;{\&quot;OriginCity\&quot;: \&quot;BERLIN\&quot;, \&quot;Destinations\&quot;: [{\&quot;idCity\&quot;:\&quot;BNN\&quot;,\&quot;Destination\&quot;:\&quot;Bonn\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;CGN\&quot;,\&quot;Destination\&quot;:\&quot;Cologne\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUI\&quot;,\&quot;Destination\&quot;:\&quot;Duisburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUS\&quot;,\&quot;Destination\&quot;:\&quot;Düsseldorf\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;HAM\&quot;,\&quot;Destination\&quot;:\&quot;Hamburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;MUC\&quot;,\&quot;Destination\&quot;:\&quot;Munich\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;PTD\&quot;,\&quot;Destination\&quot;:\&quot;Potsdam\&quot;,\&quot;Price\&quot;:\&quot;0€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;}], \&quot;NotPossibleDestinations\&quot;: null}&quot;,
+        &quot;PremiumRestrictedTxt&quot;: &quot;&quot;,
+        &quot;RookieDelayTxt&quot;: &quot;&quot;
+      },
+      {
+        &quot;idVehicle&quot;: 5758,
+        &quot;idCity&quot;: &quot;BER&quot;,
+        &quot;LicensePlate&quot;: &quot;B-MI 8054&quot;,
+        &quot;VehicleType&quot;: &quot;Mercedes Sprinter&quot;,
+        &quot;VehicleColor&quot;: &quot;Silver&quot;,
+        &quot;VehicleSize&quot;: &quot;L&quot;,
+        &quot;isElectric&quot;: false,
+        &quot;Latitude&quot;: 52.4649734,
+        &quot;Longitude&quot;: 13.507349,
+        &quot;DistanceFromUserPosition&quot;: 4633767.90,
+        &quot;DistanceFromMiddlePosition&quot;: 306.47,
+        &quot;idVehicleStatus&quot;: &quot;DEPLOYED_FOR_RENTAL&quot;,
+        &quot;GSMCoverage&quot;: 2,
+        &quot;SatelliteNumber&quot;: 20,
+        &quot;RentalPrice_row1&quot;: &quot;1.29€&quot;,
+        &quot;RentalPrice_row1unit&quot;: &quot;/km&quot;,
+        &quot;RentalPrice_discounted&quot;: null,
+        &quot;RentalPrice_row2&quot;: &quot;+1€ unlock fee | P 0.29€/min&quot;,
+        &quot;RentalPrice_discountSource&quot;: null,
+        &quot;ParkingPrice&quot;: &quot;0.29€&quot;,
+        &quot;ParkingPrice_discounted&quot;: null,
+        &quot;ParkingPrice_unit&quot;: &quot;/min&quot;,
+        &quot;UnlockFee&quot;: &quot;1.00€&quot;,
+        &quot;UnlockFee_discounted&quot;: null,
+        &quot;UnlockFee_unit&quot;: &quot;/trip&quot;,
+        &quot;FuelPct&quot;: &quot;44%&quot;,
+        &quot;FuelLevelIcon&quot;: 2,
+        &quot;RemainingRange&quot;: &quot;431km&quot;,
+        &quot;EVPlugged&quot;: false,
+        &quot;JSONFullVehicleDetails&quot;: &quot;{\&quot;standardPricing\&quot;: [{\&quot;priceInfo\&quot;:\&quot;1.29€\/km\&quot;,\&quot;additionalInfo\&quot;:\&quot;+1€ unlock fee\&quot;,\&quot;additionalInfo2\&quot;:\&quot;+1€ unlock fee, incl. fuel\&quot;,\&quot;tariffID\&quot;:\&quot;STANDARD_PERKM\&quot;,\&quot;tariffTitle\&quot;:\&quot;KM RATE\&quot;,\&quot;unlockFee\&quot;:1.00,\&quot;unlockFee_discounted\&quot;:null,\&quot;perKmFee\&quot;:1.29,\&quot;perKmFee_discounted\&quot;:null,\&quot;preBookingFeePerMinute\&quot;:0.09,\&quot;preBookingFeePerMinute_discounted\&quot;:null,\&quot;parkingFeePerMinute\&quot;:0.29,\&quot;parkingFeePerMinute_discounted\&quot;:null,\&quot;bookingRepeatRestriction_h\&quot;:2,\&quot;isElectric\&quot;:false}],\&quot;prepaidRateList\&quot;: [{\&quot;listItem\&quot;:\&quot;24h (incl. 125km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;99€\&quot;,\&quot;price_numeric\&quot;:99.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;3h (incl. 40km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;45€\&quot;,\&quot;price_numeric\&quot;:45.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;per extra km\&quot;,\&quot;price\&quot;:\&quot;0.49€\&quot;,\&quot;price_numeric\&quot;:0.49,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:false}],\&quot;vehicleDetails\&quot;: [{\&quot;key\&quot;:\&quot;vehicle_details_engine_power\&quot;,\&quot;item\&quot;:\&quot;Engine Power\&quot;,\&quot;value\&quot;:\&quot;100PS\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_seats\&quot;,\&quot;item\&quot;:\&quot;Seats\&quot;,\&quot;value\&quot;:\&quot;3\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_transmission\&quot;,\&quot;item\&quot;:\&quot;Transmission\&quot;,\&quot;value\&quot;:\&quot;Automatic\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_fuel\&quot;,\&quot;item\&quot;:\&quot;Fuel\&quot;,\&quot;value\&quot;:\&quot;Diesel\&quot;}],\&quot;OptimalRateSelector_Hours\&quot;: [{\&quot;txtDuration\&quot;:\&quot;3 h\&quot;,\&quot;nHours\&quot;:3},{\&quot;txtDuration\&quot;:\&quot;6 h\&quot;,\&quot;nHours\&quot;:6},{\&quot;txtDuration\&quot;:\&quot;1 day\&quot;,\&quot;nHours\&quot;:24},{\&quot;txtDuration\&quot;:\&quot;2 days\&quot;,\&quot;nHours\&quot;:48},{\&quot;txtDuration\&quot;:\&quot;3 days\&quot;,\&quot;nHours\&quot;:72},{\&quot;txtDuration\&quot;:\&quot;4 days\&quot;,\&quot;nHours\&quot;:96},{\&quot;txtDuration\&quot;:\&quot;5 days\&quot;,\&quot;nHours\&quot;:120},{\&quot;txtDuration\&quot;:\&quot;6 days\&quot;,\&quot;nHours\&quot;:144},{\&quot;txtDuration\&quot;:\&quot;7 days\&quot;,\&quot;nHours\&quot;:168},{\&quot;txtDuration\&quot;:\&quot;8 days\&quot;,\&quot;nHours\&quot;:192},{\&quot;txtDuration\&quot;:\&quot;9 days\&quot;,\&quot;nHours\&quot;:216},{\&quot;txtDuration\&quot;:\&quot;10 days\&quot;,\&quot;nHours\&quot;:240},{\&quot;txtDuration\&quot;:\&quot;11 days\&quot;,\&quot;nHours\&quot;:264},{\&quot;txtDuration\&quot;:\&quot;12 days\&quot;,\&quot;nHours\&quot;:288},{\&quot;txtDuration\&quot;:\&quot;13 days\&quot;,\&quot;nHours\&quot;:312},{\&quot;txtDuration\&quot;:\&quot;14 days\&quot;,\&quot;nHours\&quot;:336},{\&quot;txtDuration\&quot;:\&quot;15 days\&quot;,\&quot;nHours\&quot;:360},{\&quot;txtDuration\&quot;:\&quot;16 days\&quot;,\&quot;nHours\&quot;:384},{\&quot;txtDuration\&quot;:\&quot;17 days\&quot;,\&quot;nHours\&quot;:408},{\&quot;txtDuration\&quot;:\&quot;18 days\&quot;,\&quot;nHours\&quot;:432},{\&quot;txtDuration\&quot;:\&quot;19 days\&quot;,\&quot;nHours\&quot;:456},{\&quot;txtDuration\&quot;:\&quot;20 days\&quot;,\&quot;nHours\&quot;:480},{\&quot;txtDuration\&quot;:\&quot;21 days\&quot;,\&quot;nHours\&quot;:504},{\&quot;txtDuration\&quot;:\&quot;22 days\&quot;,\&quot;nHours\&quot;:528},{\&quot;txtDuration\&quot;:\&quot;23 days\&quot;,\&quot;nHours\&quot;:552},{\&quot;txtDuration\&quot;:\&quot;24 days\&quot;,\&quot;nHours\&quot;:576},{\&quot;txtDuration\&quot;:\&quot;25 days\&quot;,\&quot;nHours\&quot;:600},{\&quot;txtDuration\&quot;:\&quot;26 days\&quot;,\&quot;nHours\&quot;:624},{\&quot;txtDuration\&quot;:\&quot;27 days\&quot;,\&quot;nHours\&quot;:648},{\&quot;txtDuration\&quot;:\&quot;28 days\&quot;,\&quot;nHours\&quot;:672},{\&quot;txtDuration\&quot;:\&quot;29 days\&quot;,\&quot;nHours\&quot;:696},{\&quot;txtDuration\&quot;:\&quot;30 days\&quot;,\&quot;nHours\&quot;:720}],\&quot;stardardRate_descriptionTexts\&quot;: [[{\&quot;row1\&quot;:\&quot;This is our standard km rate! This will be automatically applied if you start your ride. This will be the best rate if you don't know how long your trip will take.\&quot;,\&quot;row1_discounted\&quot;:\&quot;This is our discounted km rate. This will be automatically applied if you start your ride with this vehicle and no other rate was applied. Please note that the reduced km rate is not applied to subsequent rides as well as cancelled or expired reservations.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;Included within this km rate:\&quot;,\&quot;lower_text\&quot;:\&quot;Fuel costs (partner stations). No extra parking ticket for paid public parking in our business area needed.\&quot;,\&quot;lower_warning\&quot;:\&quot;⚠️ Should your ride be longer and reach the terms and specification of a better and cheaper day rate, the cheaper rate will automatically be applied.\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}]],\&quot;stardardRate_details\&quot;: [[{\&quot;title\&quot;:\&quot;km\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:true},{\&quot;title\&quot;:\&quot;Unlock Fee\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Parking minutes\&quot;,\&quot;subtitle\&quot;:\&quot;in compliance with the booking duration time\&quot;,\&quot;price\&quot;:\&quot;0.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Fuel\&quot;,\&quot;subtitle\&quot;:\&quot;free refueling at our partner gas stations\&quot;,\&quot;price\&quot;:\&quot;0€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false}]],\&quot;vehicleBanner\&quot;: [{\&quot;color\&quot;:\&quot;\&quot;,\&quot;text\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;delay\&quot;:\&quot;\&quot;,\&quot;clickAction\&quot;:\&quot;\&quot;}],\&quot;vehicleDescriptors\&quot;: {\&quot;detailsText\&quot;:\&quot;This is a keyless vehicle! Please press the break pedal and start the engine via the START\/STOP button in the vehicle.\&quot;,\&quot;isCharity\&quot;:false,\&quot;text1\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;text3\&quot;:\&quot;\&quot;,\&quot;text4\&quot;:\&quot;\&quot;,\&quot;text5\&quot;:\&quot;\&quot;},\&quot;vehicleExtras\&quot;: {\&quot;item\&quot;:\&quot;vehicle_extras_navigator\&quot;,\&quot;itemvalue\&quot;:\&quot;Yes\&quot;}}&quot;,
+        &quot;FVDPrice&quot;: &quot;1.29€&quot;,
+        &quot;URLVehicleImage&quot;: &quot;https://api.app.miles-mobility.com/static/img/cars/small/MercedesSprinter.png&quot;,
+        &quot;JSONVehicleDamages&quot;: &quot;[{\&quot;title\&quot;: \&quot;Driver Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Fender: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Side panel: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Fender: One hand\&quot;, \&quot;Missing @ Exterior mirror\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Side panel: One hand\&quot;, \&quot;Scuffed @ Fender: One hand\&quot;]}]&quot;,
+        &quot;SpecialAirportRate&quot;: null,
+        &quot;SpecialRates&quot;: null,
+        &quot;ShowSpecialAirportRate&quot;: false,
+        &quot;nDaysRookieDelay&quot;: 0,
+        &quot;CityToCityOptions&quot;: &quot;{\&quot;OriginCity\&quot;: \&quot;BERLIN\&quot;, \&quot;Destinations\&quot;: [{\&quot;idCity\&quot;:\&quot;BNN\&quot;,\&quot;Destination\&quot;:\&quot;Bonn\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;CGN\&quot;,\&quot;Destination\&quot;:\&quot;Cologne\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUI\&quot;,\&quot;Destination\&quot;:\&quot;Duisburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUS\&quot;,\&quot;Destination\&quot;:\&quot;Düsseldorf\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;HAM\&quot;,\&quot;Destination\&quot;:\&quot;Hamburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;MUC\&quot;,\&quot;Destination\&quot;:\&quot;Munich\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;PTD\&quot;,\&quot;Destination\&quot;:\&quot;Potsdam\&quot;,\&quot;Price\&quot;:\&quot;0€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;}], \&quot;NotPossibleDestinations\&quot;: null}&quot;,
+        &quot;PremiumRestrictedTxt&quot;: &quot;&quot;,
+        &quot;RookieDelayTxt&quot;: &quot;&quot;
+      },
+      {
+        &quot;idVehicle&quot;: 1485,
+        &quot;idCity&quot;: &quot;BER&quot;,
+        &quot;LicensePlate&quot;: &quot;B-MI 2232&quot;,
+        &quot;VehicleType&quot;: &quot;VW Crafter&quot;,
+        &quot;VehicleColor&quot;: &quot;Silver&quot;,
+        &quot;VehicleSize&quot;: &quot;L&quot;,
+        &quot;isElectric&quot;: false,
+        &quot;Latitude&quot;: 52.4702377,
+        &quot;Longitude&quot;: 13.5095882,
+        &quot;DistanceFromUserPosition&quot;: 4633871.66,
+        &quot;DistanceFromMiddlePosition&quot;: 308.94,
+        &quot;idVehicleStatus&quot;: &quot;DEPLOYED_FOR_RENTAL&quot;,
+        &quot;GSMCoverage&quot;: 3,
+        &quot;SatelliteNumber&quot;: 20,
+        &quot;RentalPrice_row1&quot;: &quot;1.29€&quot;,
+        &quot;RentalPrice_row1unit&quot;: &quot;/km&quot;,
+        &quot;RentalPrice_discounted&quot;: null,
+        &quot;RentalPrice_row2&quot;: &quot;+1€ unlock fee | P 0.29€/min&quot;,
+        &quot;RentalPrice_discountSource&quot;: null,
+        &quot;ParkingPrice&quot;: &quot;0.29€&quot;,
+        &quot;ParkingPrice_discounted&quot;: null,
+        &quot;ParkingPrice_unit&quot;: &quot;/min&quot;,
+        &quot;UnlockFee&quot;: &quot;1.00€&quot;,
+        &quot;UnlockFee_discounted&quot;: null,
+        &quot;UnlockFee_unit&quot;: &quot;/trip&quot;,
+        &quot;FuelPct&quot;: &quot;26%&quot;,
+        &quot;FuelLevelIcon&quot;: 2,
+        &quot;RemainingRange&quot;: &quot;213km&quot;,
+        &quot;EVPlugged&quot;: false,
+        &quot;JSONFullVehicleDetails&quot;: &quot;{\&quot;standardPricing\&quot;: [{\&quot;priceInfo\&quot;:\&quot;1.29€\/km\&quot;,\&quot;additionalInfo\&quot;:\&quot;+1€ unlock fee\&quot;,\&quot;additionalInfo2\&quot;:\&quot;+1€ unlock fee, incl. fuel\&quot;,\&quot;tariffID\&quot;:\&quot;STANDARD_PERKM\&quot;,\&quot;tariffTitle\&quot;:\&quot;KM RATE\&quot;,\&quot;unlockFee\&quot;:1.00,\&quot;unlockFee_discounted\&quot;:null,\&quot;perKmFee\&quot;:1.29,\&quot;perKmFee_discounted\&quot;:null,\&quot;preBookingFeePerMinute\&quot;:0.09,\&quot;preBookingFeePerMinute_discounted\&quot;:null,\&quot;parkingFeePerMinute\&quot;:0.29,\&quot;parkingFeePerMinute_discounted\&quot;:null,\&quot;bookingRepeatRestriction_h\&quot;:2,\&quot;isElectric\&quot;:false}],\&quot;prepaidRateList\&quot;: [{\&quot;listItem\&quot;:\&quot;24h (incl. 125km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;99€\&quot;,\&quot;price_numeric\&quot;:99.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;3h (incl. 40km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;45€\&quot;,\&quot;price_numeric\&quot;:45.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;per extra km\&quot;,\&quot;price\&quot;:\&quot;0.49€\&quot;,\&quot;price_numeric\&quot;:0.49,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:false}],\&quot;vehicleDetails\&quot;: [{\&quot;key\&quot;:\&quot;vehicle_details_engine_power\&quot;,\&quot;item\&quot;:\&quot;Engine Power\&quot;,\&quot;value\&quot;:\&quot;100PS\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_seats\&quot;,\&quot;item\&quot;:\&quot;Seats\&quot;,\&quot;value\&quot;:\&quot;3\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_transmission\&quot;,\&quot;item\&quot;:\&quot;Transmission\&quot;,\&quot;value\&quot;:\&quot;Manual\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_fuel\&quot;,\&quot;item\&quot;:\&quot;Fuel\&quot;,\&quot;value\&quot;:\&quot;Diesel\&quot;}],\&quot;OptimalRateSelector_Hours\&quot;: [{\&quot;txtDuration\&quot;:\&quot;3 h\&quot;,\&quot;nHours\&quot;:3},{\&quot;txtDuration\&quot;:\&quot;6 h\&quot;,\&quot;nHours\&quot;:6},{\&quot;txtDuration\&quot;:\&quot;1 day\&quot;,\&quot;nHours\&quot;:24},{\&quot;txtDuration\&quot;:\&quot;2 days\&quot;,\&quot;nHours\&quot;:48},{\&quot;txtDuration\&quot;:\&quot;3 days\&quot;,\&quot;nHours\&quot;:72},{\&quot;txtDuration\&quot;:\&quot;4 days\&quot;,\&quot;nHours\&quot;:96},{\&quot;txtDuration\&quot;:\&quot;5 days\&quot;,\&quot;nHours\&quot;:120},{\&quot;txtDuration\&quot;:\&quot;6 days\&quot;,\&quot;nHours\&quot;:144},{\&quot;txtDuration\&quot;:\&quot;7 days\&quot;,\&quot;nHours\&quot;:168},{\&quot;txtDuration\&quot;:\&quot;8 days\&quot;,\&quot;nHours\&quot;:192},{\&quot;txtDuration\&quot;:\&quot;9 days\&quot;,\&quot;nHours\&quot;:216},{\&quot;txtDuration\&quot;:\&quot;10 days\&quot;,\&quot;nHours\&quot;:240},{\&quot;txtDuration\&quot;:\&quot;11 days\&quot;,\&quot;nHours\&quot;:264},{\&quot;txtDuration\&quot;:\&quot;12 days\&quot;,\&quot;nHours\&quot;:288},{\&quot;txtDuration\&quot;:\&quot;13 days\&quot;,\&quot;nHours\&quot;:312},{\&quot;txtDuration\&quot;:\&quot;14 days\&quot;,\&quot;nHours\&quot;:336},{\&quot;txtDuration\&quot;:\&quot;15 days\&quot;,\&quot;nHours\&quot;:360},{\&quot;txtDuration\&quot;:\&quot;16 days\&quot;,\&quot;nHours\&quot;:384},{\&quot;txtDuration\&quot;:\&quot;17 days\&quot;,\&quot;nHours\&quot;:408},{\&quot;txtDuration\&quot;:\&quot;18 days\&quot;,\&quot;nHours\&quot;:432},{\&quot;txtDuration\&quot;:\&quot;19 days\&quot;,\&quot;nHours\&quot;:456},{\&quot;txtDuration\&quot;:\&quot;20 days\&quot;,\&quot;nHours\&quot;:480},{\&quot;txtDuration\&quot;:\&quot;21 days\&quot;,\&quot;nHours\&quot;:504},{\&quot;txtDuration\&quot;:\&quot;22 days\&quot;,\&quot;nHours\&quot;:528},{\&quot;txtDuration\&quot;:\&quot;23 days\&quot;,\&quot;nHours\&quot;:552},{\&quot;txtDuration\&quot;:\&quot;24 days\&quot;,\&quot;nHours\&quot;:576},{\&quot;txtDuration\&quot;:\&quot;25 days\&quot;,\&quot;nHours\&quot;:600},{\&quot;txtDuration\&quot;:\&quot;26 days\&quot;,\&quot;nHours\&quot;:624},{\&quot;txtDuration\&quot;:\&quot;27 days\&quot;,\&quot;nHours\&quot;:648},{\&quot;txtDuration\&quot;:\&quot;28 days\&quot;,\&quot;nHours\&quot;:672},{\&quot;txtDuration\&quot;:\&quot;29 days\&quot;,\&quot;nHours\&quot;:696},{\&quot;txtDuration\&quot;:\&quot;30 days\&quot;,\&quot;nHours\&quot;:720}],\&quot;stardardRate_descriptionTexts\&quot;: [[{\&quot;row1\&quot;:\&quot;This is our standard km rate! This will be automatically applied if you start your ride. This will be the best rate if you don't know how long your trip will take.\&quot;,\&quot;row1_discounted\&quot;:\&quot;This is our discounted km rate. This will be automatically applied if you start your ride with this vehicle and no other rate was applied. Please note that the reduced km rate is not applied to subsequent rides as well as cancelled or expired reservations.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;Included within this km rate:\&quot;,\&quot;lower_text\&quot;:\&quot;Fuel costs (partner stations). No extra parking ticket for paid public parking in our business area needed.\&quot;,\&quot;lower_warning\&quot;:\&quot;⚠️ Should your ride be longer and reach the terms and specification of a better and cheaper day rate, the cheaper rate will automatically be applied.\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}]],\&quot;stardardRate_details\&quot;: [[{\&quot;title\&quot;:\&quot;km\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:true},{\&quot;title\&quot;:\&quot;Unlock Fee\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Parking minutes\&quot;,\&quot;subtitle\&quot;:\&quot;in compliance with the booking duration time\&quot;,\&quot;price\&quot;:\&quot;0.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Fuel\&quot;,\&quot;subtitle\&quot;:\&quot;free refueling at our partner gas stations\&quot;,\&quot;price\&quot;:\&quot;0€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false}]],\&quot;vehicleBanner\&quot;: [{\&quot;color\&quot;:\&quot;\&quot;,\&quot;text\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;delay\&quot;:\&quot;\&quot;,\&quot;clickAction\&quot;:\&quot;\&quot;}],\&quot;vehicleDescriptors\&quot;: {\&quot;detailsText\&quot;:\&quot;This vehicle runs with a key! The key can be found in the glove box. Please ensure to put the key back to the key holder as soon you end your ride.\&quot;,\&quot;isCharity\&quot;:false,\&quot;text1\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;text3\&quot;:\&quot;\&quot;,\&quot;text4\&quot;:\&quot;\&quot;,\&quot;text5\&quot;:\&quot;\&quot;},\&quot;vehicleExtras\&quot;: {\&quot;item\&quot;:\&quot;vehicle_extras_navigator\&quot;,\&quot;itemvalue\&quot;:\&quot;Yes\&quot;}}&quot;,
+        &quot;FVDPrice&quot;: &quot;1.29€&quot;,
+        &quot;URLVehicleImage&quot;: &quot;https://api.app.miles-mobility.com/static/img/cars/small/VWcRAFTER.png&quot;,
+        &quot;JSONVehicleDamages&quot;: &quot;[{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Door: One hand\&quot;, \&quot;Bump/dent @ Door: Two hands\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scratch @ Door: One hand\&quot;, \&quot;Scratch @ Door: More than three hands\&quot;, \&quot;Broken @ Wiper\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scratch @ Door: Two hands\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scratch @ Door: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scratch @ Bumper: One hand\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Side panel: More than three hands\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Roof: More than three hands\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Bump/dent @ Roof: More than three hands\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Bumper: Two hands\&quot;]},{\&quot;title\&quot;: \&quot;Driver Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Broken @ Lights\&quot;]},{\&quot;title\&quot;: \&quot;Passenger Side - Rear (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Broken @ Lights\&quot;]}]&quot;,
+        &quot;SpecialAirportRate&quot;: null,
+        &quot;SpecialRates&quot;: null,
+        &quot;ShowSpecialAirportRate&quot;: false,
+        &quot;nDaysRookieDelay&quot;: 0,
+        &quot;CityToCityOptions&quot;: &quot;{\&quot;OriginCity\&quot;: \&quot;BERLIN\&quot;, \&quot;Destinations\&quot;: [{\&quot;idCity\&quot;:\&quot;BNN\&quot;,\&quot;Destination\&quot;:\&quot;Bonn\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;CGN\&quot;,\&quot;Destination\&quot;:\&quot;Cologne\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUI\&quot;,\&quot;Destination\&quot;:\&quot;Duisburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUS\&quot;,\&quot;Destination\&quot;:\&quot;Düsseldorf\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;HAM\&quot;,\&quot;Destination\&quot;:\&quot;Hamburg\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;MUC\&quot;,\&quot;Destination\&quot;:\&quot;Munich\&quot;,\&quot;Price\&quot;:\&quot;49.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;PTD\&quot;,\&quot;Destination\&quot;:\&quot;Potsdam\&quot;,\&quot;Price\&quot;:\&quot;0€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;}], \&quot;NotPossibleDestinations\&quot;: null}&quot;,
+        &quot;PremiumRestrictedTxt&quot;: &quot;&quot;,
+        &quot;RookieDelayTxt&quot;: &quot;&quot;
+      },
+      {
+        &quot;idVehicle&quot;: 7675,
+        &quot;idCity&quot;: &quot;BER&quot;,
+        &quot;LicensePlate&quot;: &quot;B-MI 9757&quot;,
+        &quot;VehicleType&quot;: &quot;VW Polo GP 2022&quot;,
+        &quot;VehicleColor&quot;: &quot;Black&quot;,
+        &quot;VehicleSize&quot;: &quot;S&quot;,
+        &quot;isElectric&quot;: false,
+        &quot;Latitude&quot;: 52.4691162,
+        &quot;Longitude&quot;: 13.5120707,
+        &quot;DistanceFromUserPosition&quot;: 4633666.39,
+        &quot;DistanceFromMiddlePosition&quot;: 336.84,
+        &quot;idVehicleStatus&quot;: &quot;DEPLOYED_FOR_RENTAL&quot;,
+        &quot;GSMCoverage&quot;: 3,
+        &quot;SatelliteNumber&quot;: 16,
+        &quot;RentalPrice_row1&quot;: &quot;0.98€&quot;,
+        &quot;RentalPrice_row1unit&quot;: &quot;/km&quot;,
+        &quot;RentalPrice_discounted&quot;: null,
+        &quot;RentalPrice_row2&quot;: &quot;+1€ unlock fee | P 0.29€/min&quot;,
+        &quot;RentalPrice_discountSource&quot;: null,
+        &quot;ParkingPrice&quot;: &quot;0.29€&quot;,
+        &quot;ParkingPrice_discounted&quot;: null,
+        &quot;ParkingPrice_unit&quot;: &quot;/min&quot;,
+        &quot;UnlockFee&quot;: &quot;1.00€&quot;,
+        &quot;UnlockFee_discounted&quot;: null,
+        &quot;UnlockFee_unit&quot;: &quot;/trip&quot;,
+        &quot;FuelPct&quot;: &quot;27%&quot;,
+        &quot;FuelLevelIcon&quot;: 2,
+        &quot;RemainingRange&quot;: &quot;156km&quot;,
+        &quot;EVPlugged&quot;: false,
+        &quot;JSONFullVehicleDetails&quot;: &quot;{\&quot;standardPricing\&quot;: [{\&quot;priceInfo\&quot;:\&quot;0.98€\/km\&quot;,\&quot;additionalInfo\&quot;:\&quot;+1€ unlock fee\&quot;,\&quot;additionalInfo2\&quot;:\&quot;+1€ unlock fee, incl. fuel\&quot;,\&quot;tariffID\&quot;:\&quot;STANDARD_PERKM\&quot;,\&quot;tariffTitle\&quot;:\&quot;KM RATE\&quot;,\&quot;unlockFee\&quot;:1.00,\&quot;unlockFee_discounted\&quot;:null,\&quot;perKmFee\&quot;:0.98,\&quot;perKmFee_discounted\&quot;:null,\&quot;preBookingFeePerMinute\&quot;:0.09,\&quot;preBookingFeePerMinute_discounted\&quot;:null,\&quot;parkingFeePerMinute\&quot;:0.29,\&quot;parkingFeePerMinute_discounted\&quot;:null,\&quot;bookingRepeatRestriction_h\&quot;:2,\&quot;isElectric\&quot;:false}],\&quot;prepaidRateList\&quot;: [{\&quot;listItem\&quot;:\&quot;24h (incl. 50km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;45€\&quot;,\&quot;price_numeric\&quot;:45.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;3h (incl. 40km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;34€\&quot;,\&quot;price_numeric\&quot;:34.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;per extra km\&quot;,\&quot;price\&quot;:\&quot;0.39€\&quot;,\&quot;price_numeric\&quot;:0.39,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:false}],\&quot;vehicleDetails\&quot;: [{\&quot;key\&quot;:\&quot;vehicle_details_engine_power\&quot;,\&quot;item\&quot;:\&quot;Engine Power\&quot;,\&quot;value\&quot;:\&quot;95PS\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_seats\&quot;,\&quot;item\&quot;:\&quot;Seats\&quot;,\&quot;value\&quot;:\&quot;5\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_transmission\&quot;,\&quot;item\&quot;:\&quot;Transmission\&quot;,\&quot;value\&quot;:\&quot;Automatic\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_fuel\&quot;,\&quot;item\&quot;:\&quot;Fuel\&quot;,\&quot;value\&quot;:\&quot;Gasoline\&quot;}],\&quot;OptimalRateSelector_Hours\&quot;: [{\&quot;txtDuration\&quot;:\&quot;3 h\&quot;,\&quot;nHours\&quot;:3},{\&quot;txtDuration\&quot;:\&quot;6 h\&quot;,\&quot;nHours\&quot;:6},{\&quot;txtDuration\&quot;:\&quot;1 day\&quot;,\&quot;nHours\&quot;:24},{\&quot;txtDuration\&quot;:\&quot;2 days\&quot;,\&quot;nHours\&quot;:48},{\&quot;txtDuration\&quot;:\&quot;3 days\&quot;,\&quot;nHours\&quot;:72},{\&quot;txtDuration\&quot;:\&quot;4 days\&quot;,\&quot;nHours\&quot;:96},{\&quot;txtDuration\&quot;:\&quot;5 days\&quot;,\&quot;nHours\&quot;:120},{\&quot;txtDuration\&quot;:\&quot;6 days\&quot;,\&quot;nHours\&quot;:144},{\&quot;txtDuration\&quot;:\&quot;7 days\&quot;,\&quot;nHours\&quot;:168},{\&quot;txtDuration\&quot;:\&quot;8 days\&quot;,\&quot;nHours\&quot;:192},{\&quot;txtDuration\&quot;:\&quot;9 days\&quot;,\&quot;nHours\&quot;:216},{\&quot;txtDuration\&quot;:\&quot;10 days\&quot;,\&quot;nHours\&quot;:240},{\&quot;txtDuration\&quot;:\&quot;11 days\&quot;,\&quot;nHours\&quot;:264},{\&quot;txtDuration\&quot;:\&quot;12 days\&quot;,\&quot;nHours\&quot;:288},{\&quot;txtDuration\&quot;:\&quot;13 days\&quot;,\&quot;nHours\&quot;:312},{\&quot;txtDuration\&quot;:\&quot;14 days\&quot;,\&quot;nHours\&quot;:336},{\&quot;txtDuration\&quot;:\&quot;15 days\&quot;,\&quot;nHours\&quot;:360},{\&quot;txtDuration\&quot;:\&quot;16 days\&quot;,\&quot;nHours\&quot;:384},{\&quot;txtDuration\&quot;:\&quot;17 days\&quot;,\&quot;nHours\&quot;:408},{\&quot;txtDuration\&quot;:\&quot;18 days\&quot;,\&quot;nHours\&quot;:432},{\&quot;txtDuration\&quot;:\&quot;19 days\&quot;,\&quot;nHours\&quot;:456},{\&quot;txtDuration\&quot;:\&quot;20 days\&quot;,\&quot;nHours\&quot;:480},{\&quot;txtDuration\&quot;:\&quot;21 days\&quot;,\&quot;nHours\&quot;:504},{\&quot;txtDuration\&quot;:\&quot;22 days\&quot;,\&quot;nHours\&quot;:528},{\&quot;txtDuration\&quot;:\&quot;23 days\&quot;,\&quot;nHours\&quot;:552},{\&quot;txtDuration\&quot;:\&quot;24 days\&quot;,\&quot;nHours\&quot;:576},{\&quot;txtDuration\&quot;:\&quot;25 days\&quot;,\&quot;nHours\&quot;:600},{\&quot;txtDuration\&quot;:\&quot;26 days\&quot;,\&quot;nHours\&quot;:624},{\&quot;txtDuration\&quot;:\&quot;27 days\&quot;,\&quot;nHours\&quot;:648},{\&quot;txtDuration\&quot;:\&quot;28 days\&quot;,\&quot;nHours\&quot;:672},{\&quot;txtDuration\&quot;:\&quot;29 days\&quot;,\&quot;nHours\&quot;:696},{\&quot;txtDuration\&quot;:\&quot;30 days\&quot;,\&quot;nHours\&quot;:720}],\&quot;stardardRate_descriptionTexts\&quot;: [[{\&quot;row1\&quot;:\&quot;This is our standard km rate! This will be automatically applied if you start your ride. This will be the best rate if you don't know how long your trip will take.\&quot;,\&quot;row1_discounted\&quot;:\&quot;This is our discounted km rate. This will be automatically applied if you start your ride with this vehicle and no other rate was applied. Please note that the reduced km rate is not applied to subsequent rides as well as cancelled or expired reservations.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;Included within this km rate:\&quot;,\&quot;lower_text\&quot;:\&quot;Fuel costs (partner stations). No extra parking ticket for paid public parking in our business area needed.\&quot;,\&quot;lower_warning\&quot;:\&quot;⚠️ Should your ride be longer and reach the terms and specification of a better and cheaper day rate, the cheaper rate will automatically be applied.\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}]],\&quot;stardardRate_details\&quot;: [[{\&quot;title\&quot;:\&quot;km\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;0.98€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:true},{\&quot;title\&quot;:\&quot;Unlock Fee\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Parking minutes\&quot;,\&quot;subtitle\&quot;:\&quot;in compliance with the booking duration time\&quot;,\&quot;price\&quot;:\&quot;0.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Fuel\&quot;,\&quot;subtitle\&quot;:\&quot;free refueling at our partner gas stations\&quot;,\&quot;price\&quot;:\&quot;0€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false}]],\&quot;vehicleBanner\&quot;: [{\&quot;color\&quot;:\&quot;\&quot;,\&quot;text\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;delay\&quot;:\&quot;\&quot;,\&quot;clickAction\&quot;:\&quot;\&quot;}],\&quot;vehicleDescriptors\&quot;: {\&quot;detailsText\&quot;:\&quot;This is a keyless vehicle! Please press the break pedal and start the engine via the START\/STOP button in the vehicle.\&quot;,\&quot;isCharity\&quot;:false,\&quot;text1\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;text3\&quot;:\&quot;\&quot;,\&quot;text4\&quot;:\&quot;\&quot;,\&quot;text5\&quot;:\&quot;\&quot;},\&quot;vehicleExtras\&quot;: {\&quot;item\&quot;:\&quot;vehicle_extras_navigator\&quot;,\&quot;itemvalue\&quot;:\&quot;Yes\&quot;}}&quot;,
+        &quot;FVDPrice&quot;: &quot;0.98€&quot;,
+        &quot;URLVehicleImage&quot;: &quot;https://api.app.miles-mobility.com/static/img/cars/small/VWPolo.png&quot;,
+        &quot;JSONVehicleDamages&quot;: &quot;[{\&quot;title\&quot;: \&quot;Passenger Side - Front (Outside)\&quot;, \&quot;damages\&quot;: [\&quot;Scuffed @ Bumper: One hand\&quot;]}]&quot;,
+        &quot;SpecialAirportRate&quot;: null,
+        &quot;SpecialRates&quot;: null,
+        &quot;ShowSpecialAirportRate&quot;: true,
+        &quot;nDaysRookieDelay&quot;: 0,
+        &quot;CityToCityOptions&quot;: &quot;{\&quot;OriginCity\&quot;: \&quot;BERLIN\&quot;, \&quot;Destinations\&quot;: [{\&quot;idCity\&quot;:\&quot;BNN\&quot;,\&quot;Destination\&quot;:\&quot;Bonn\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;CGN\&quot;,\&quot;Destination\&quot;:\&quot;Cologne\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUI\&quot;,\&quot;Destination\&quot;:\&quot;Duisburg\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUS\&quot;,\&quot;Destination\&quot;:\&quot;Düsseldorf\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;HAM\&quot;,\&quot;Destination\&quot;:\&quot;Hamburg\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;MUC\&quot;,\&quot;Destination\&quot;:\&quot;Munich\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;PTD\&quot;,\&quot;Destination\&quot;:\&quot;Potsdam\&quot;,\&quot;Price\&quot;:\&quot;0€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;}], \&quot;NotPossibleDestinations\&quot;: null}&quot;,
+        &quot;PremiumRestrictedTxt&quot;: &quot;&quot;,
+        &quot;RookieDelayTxt&quot;: &quot;&quot;
+      },
+      {
+        &quot;idVehicle&quot;: 6856,
+        &quot;idCity&quot;: &quot;BER&quot;,
+        &quot;LicensePlate&quot;: &quot;B-MI 2043&quot;,
+        &quot;VehicleType&quot;: &quot;Audi Q2&quot;,
+        &quot;VehicleColor&quot;: &quot;Black&quot;,
+        &quot;VehicleSize&quot;: &quot;M&quot;,
+        &quot;isElectric&quot;: false,
+        &quot;Latitude&quot;: 52.4646149,
+        &quot;Longitude&quot;: 13.5157452,
+        &quot;DistanceFromUserPosition&quot;: 4633231.88,
+        &quot;DistanceFromMiddlePosition&quot;: 648.33,
+        &quot;idVehicleStatus&quot;: &quot;DEPLOYED_FOR_RENTAL&quot;,
+        &quot;GSMCoverage&quot;: 3,
+        &quot;SatelliteNumber&quot;: 16,
+        &quot;RentalPrice_row1&quot;: &quot;0.98€&quot;,
+        &quot;RentalPrice_row1unit&quot;: &quot;/km&quot;,
+        &quot;RentalPrice_discounted&quot;: null,
+        &quot;RentalPrice_row2&quot;: &quot;+1€ unlock fee | P 0.29€/min&quot;,
+        &quot;RentalPrice_discountSource&quot;: null,
+        &quot;ParkingPrice&quot;: &quot;0.29€&quot;,
+        &quot;ParkingPrice_discounted&quot;: null,
+        &quot;ParkingPrice_unit&quot;: &quot;/min&quot;,
+        &quot;UnlockFee&quot;: &quot;1.00€&quot;,
+        &quot;UnlockFee_discounted&quot;: null,
+        &quot;UnlockFee_unit&quot;: &quot;/trip&quot;,
+        &quot;FuelPct&quot;: &quot;100%&quot;,
+        &quot;FuelLevelIcon&quot;: 4,
+        &quot;RemainingRange&quot;: &quot;580km&quot;,
+        &quot;EVPlugged&quot;: false,
+        &quot;JSONFullVehicleDetails&quot;: &quot;{\&quot;standardPricing\&quot;: [{\&quot;priceInfo\&quot;:\&quot;0.98€\/km\&quot;,\&quot;additionalInfo\&quot;:\&quot;+1€ unlock fee\&quot;,\&quot;additionalInfo2\&quot;:\&quot;+1€ unlock fee, incl. fuel\&quot;,\&quot;tariffID\&quot;:\&quot;STANDARD_PERKM\&quot;,\&quot;tariffTitle\&quot;:\&quot;KM RATE\&quot;,\&quot;unlockFee\&quot;:1.00,\&quot;unlockFee_discounted\&quot;:null,\&quot;perKmFee\&quot;:0.98,\&quot;perKmFee_discounted\&quot;:null,\&quot;preBookingFeePerMinute\&quot;:0.09,\&quot;preBookingFeePerMinute_discounted\&quot;:null,\&quot;parkingFeePerMinute\&quot;:0.29,\&quot;parkingFeePerMinute_discounted\&quot;:null,\&quot;bookingRepeatRestriction_h\&quot;:2,\&quot;isElectric\&quot;:false}],\&quot;prepaidRateList\&quot;: [{\&quot;listItem\&quot;:\&quot;24h (incl. 50km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;49€\&quot;,\&quot;price_numeric\&quot;:49.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;3h (incl. 40km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;34€\&quot;,\&quot;price_numeric\&quot;:34.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;per extra km\&quot;,\&quot;price\&quot;:\&quot;0.49€\&quot;,\&quot;price_numeric\&quot;:0.49,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:false}],\&quot;vehicleDetails\&quot;: [{\&quot;key\&quot;:\&quot;vehicle_details_engine_power\&quot;,\&quot;item\&quot;:\&quot;Engine Power\&quot;,\&quot;value\&quot;:\&quot;150PS\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_seats\&quot;,\&quot;item\&quot;:\&quot;Seats\&quot;,\&quot;value\&quot;:\&quot;5\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_transmission\&quot;,\&quot;item\&quot;:\&quot;Transmission\&quot;,\&quot;value\&quot;:\&quot;Automatic\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_fuel\&quot;,\&quot;item\&quot;:\&quot;Fuel\&quot;,\&quot;value\&quot;:\&quot;Gasoline\&quot;}],\&quot;OptimalRateSelector_Hours\&quot;: [{\&quot;txtDuration\&quot;:\&quot;3 h\&quot;,\&quot;nHours\&quot;:3},{\&quot;txtDuration\&quot;:\&quot;6 h\&quot;,\&quot;nHours\&quot;:6},{\&quot;txtDuration\&quot;:\&quot;1 day\&quot;,\&quot;nHours\&quot;:24},{\&quot;txtDuration\&quot;:\&quot;2 days\&quot;,\&quot;nHours\&quot;:48},{\&quot;txtDuration\&quot;:\&quot;3 days\&quot;,\&quot;nHours\&quot;:72},{\&quot;txtDuration\&quot;:\&quot;4 days\&quot;,\&quot;nHours\&quot;:96},{\&quot;txtDuration\&quot;:\&quot;5 days\&quot;,\&quot;nHours\&quot;:120},{\&quot;txtDuration\&quot;:\&quot;6 days\&quot;,\&quot;nHours\&quot;:144},{\&quot;txtDuration\&quot;:\&quot;7 days\&quot;,\&quot;nHours\&quot;:168},{\&quot;txtDuration\&quot;:\&quot;8 days\&quot;,\&quot;nHours\&quot;:192},{\&quot;txtDuration\&quot;:\&quot;9 days\&quot;,\&quot;nHours\&quot;:216},{\&quot;txtDuration\&quot;:\&quot;10 days\&quot;,\&quot;nHours\&quot;:240},{\&quot;txtDuration\&quot;:\&quot;11 days\&quot;,\&quot;nHours\&quot;:264},{\&quot;txtDuration\&quot;:\&quot;12 days\&quot;,\&quot;nHours\&quot;:288},{\&quot;txtDuration\&quot;:\&quot;13 days\&quot;,\&quot;nHours\&quot;:312},{\&quot;txtDuration\&quot;:\&quot;14 days\&quot;,\&quot;nHours\&quot;:336},{\&quot;txtDuration\&quot;:\&quot;15 days\&quot;,\&quot;nHours\&quot;:360},{\&quot;txtDuration\&quot;:\&quot;16 days\&quot;,\&quot;nHours\&quot;:384},{\&quot;txtDuration\&quot;:\&quot;17 days\&quot;,\&quot;nHours\&quot;:408},{\&quot;txtDuration\&quot;:\&quot;18 days\&quot;,\&quot;nHours\&quot;:432},{\&quot;txtDuration\&quot;:\&quot;19 days\&quot;,\&quot;nHours\&quot;:456},{\&quot;txtDuration\&quot;:\&quot;20 days\&quot;,\&quot;nHours\&quot;:480},{\&quot;txtDuration\&quot;:\&quot;21 days\&quot;,\&quot;nHours\&quot;:504},{\&quot;txtDuration\&quot;:\&quot;22 days\&quot;,\&quot;nHours\&quot;:528},{\&quot;txtDuration\&quot;:\&quot;23 days\&quot;,\&quot;nHours\&quot;:552},{\&quot;txtDuration\&quot;:\&quot;24 days\&quot;,\&quot;nHours\&quot;:576},{\&quot;txtDuration\&quot;:\&quot;25 days\&quot;,\&quot;nHours\&quot;:600},{\&quot;txtDuration\&quot;:\&quot;26 days\&quot;,\&quot;nHours\&quot;:624},{\&quot;txtDuration\&quot;:\&quot;27 days\&quot;,\&quot;nHours\&quot;:648},{\&quot;txtDuration\&quot;:\&quot;28 days\&quot;,\&quot;nHours\&quot;:672},{\&quot;txtDuration\&quot;:\&quot;29 days\&quot;,\&quot;nHours\&quot;:696},{\&quot;txtDuration\&quot;:\&quot;30 days\&quot;,\&quot;nHours\&quot;:720}],\&quot;stardardRate_descriptionTexts\&quot;: [[{\&quot;row1\&quot;:\&quot;This is our standard km rate! This will be automatically applied if you start your ride. This will be the best rate if you don't know how long your trip will take.\&quot;,\&quot;row1_discounted\&quot;:\&quot;This is our discounted km rate. This will be automatically applied if you start your ride with this vehicle and no other rate was applied. Please note that the reduced km rate is not applied to subsequent rides as well as cancelled or expired reservations.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;Included within this km rate:\&quot;,\&quot;lower_text\&quot;:\&quot;Fuel costs (partner stations). No extra parking ticket for paid public parking in our business area needed.\&quot;,\&quot;lower_warning\&quot;:\&quot;⚠️ Should your ride be longer and reach the terms and specification of a better and cheaper day rate, the cheaper rate will automatically be applied.\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}]],\&quot;stardardRate_details\&quot;: [[{\&quot;title\&quot;:\&quot;km\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;0.98€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:true},{\&quot;title\&quot;:\&quot;Unlock Fee\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Parking minutes\&quot;,\&quot;subtitle\&quot;:\&quot;in compliance with the booking duration time\&quot;,\&quot;price\&quot;:\&quot;0.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Fuel\&quot;,\&quot;subtitle\&quot;:\&quot;free refueling at our partner gas stations\&quot;,\&quot;price\&quot;:\&quot;0€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false}]],\&quot;vehicleBanner\&quot;: [{\&quot;color\&quot;:\&quot;\&quot;,\&quot;text\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;delay\&quot;:\&quot;\&quot;,\&quot;clickAction\&quot;:\&quot;\&quot;}],\&quot;vehicleDescriptors\&quot;: {\&quot;detailsText\&quot;:\&quot;This is a keyless vehicle! Please press the break pedal and start the engine via the START\/STOP button in the vehicle.\&quot;,\&quot;isCharity\&quot;:false,\&quot;text1\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;text3\&quot;:\&quot;\&quot;,\&quot;text4\&quot;:\&quot;\&quot;,\&quot;text5\&quot;:\&quot;\&quot;},\&quot;vehicleExtras\&quot;: {\&quot;item\&quot;:\&quot;vehicle_extras_navigator\&quot;,\&quot;itemvalue\&quot;:\&quot;Yes\&quot;}}&quot;,
+        &quot;FVDPrice&quot;: &quot;0.98€&quot;,
+        &quot;URLVehicleImage&quot;: &quot;https://api.app.miles-mobility.com/static/img/cars/small/Audi-q2.png&quot;,
+        &quot;JSONVehicleDamages&quot;: null,
+        &quot;SpecialAirportRate&quot;: null,
+        &quot;SpecialRates&quot;: null,
+        &quot;ShowSpecialAirportRate&quot;: true,
+        &quot;nDaysRookieDelay&quot;: 0,
+        &quot;CityToCityOptions&quot;: &quot;{\&quot;OriginCity\&quot;: \&quot;BERLIN\&quot;, \&quot;Destinations\&quot;: [{\&quot;idCity\&quot;:\&quot;BNN\&quot;,\&quot;Destination\&quot;:\&quot;Bonn\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;CGN\&quot;,\&quot;Destination\&quot;:\&quot;Cologne\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUI\&quot;,\&quot;Destination\&quot;:\&quot;Duisburg\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUS\&quot;,\&quot;Destination\&quot;:\&quot;Düsseldorf\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;HAM\&quot;,\&quot;Destination\&quot;:\&quot;Hamburg\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;MUC\&quot;,\&quot;Destination\&quot;:\&quot;Munich\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;PTD\&quot;,\&quot;Destination\&quot;:\&quot;Potsdam\&quot;,\&quot;Price\&quot;:\&quot;0€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;}], \&quot;NotPossibleDestinations\&quot;: null}&quot;,
+        &quot;PremiumRestrictedTxt&quot;: &quot;&quot;,
+        &quot;RookieDelayTxt&quot;: &quot;&quot;
+      },
+      {
+        &quot;idVehicle&quot;: 8686,
+        &quot;idCity&quot;: &quot;BER&quot;,
+        &quot;LicensePlate&quot;: &quot;B-MM 6579&quot;,
+        &quot;VehicleType&quot;: &quot;Audi A4 Avant&quot;,
+        &quot;VehicleColor&quot;: &quot;Black&quot;,
+        &quot;VehicleSize&quot;: &quot;M&quot;,
+        &quot;isElectric&quot;: false,
+        &quot;Latitude&quot;: 52.4619637,
+        &quot;Longitude&quot;: 13.5160275,
+        &quot;DistanceFromUserPosition&quot;: 4633092.41,
+        &quot;DistanceFromMiddlePosition&quot;: 855.93,
+        &quot;idVehicleStatus&quot;: &quot;DEPLOYED_FOR_RENTAL&quot;,
+        &quot;GSMCoverage&quot;: 3,
+        &quot;SatelliteNumber&quot;: 18,
+        &quot;RentalPrice_row1&quot;: &quot;0.98€&quot;,
+        &quot;RentalPrice_row1unit&quot;: &quot;/km&quot;,
+        &quot;RentalPrice_discounted&quot;: null,
+        &quot;RentalPrice_row2&quot;: &quot;+1€ unlock fee | P 0.29€/min&quot;,
+        &quot;RentalPrice_discountSource&quot;: null,
+        &quot;ParkingPrice&quot;: &quot;0.29€&quot;,
+        &quot;ParkingPrice_discounted&quot;: null,
+        &quot;ParkingPrice_unit&quot;: &quot;/min&quot;,
+        &quot;UnlockFee&quot;: &quot;1.00€&quot;,
+        &quot;UnlockFee_discounted&quot;: null,
+        &quot;UnlockFee_unit&quot;: &quot;/trip&quot;,
+        &quot;FuelPct&quot;: &quot;92%&quot;,
+        &quot;FuelLevelIcon&quot;: 4,
+        &quot;RemainingRange&quot;: &quot;524km&quot;,
+        &quot;EVPlugged&quot;: false,
+        &quot;JSONFullVehicleDetails&quot;: &quot;{\&quot;standardPricing\&quot;: [{\&quot;priceInfo\&quot;:\&quot;0.98€\/km\&quot;,\&quot;additionalInfo\&quot;:\&quot;+1€ unlock fee\&quot;,\&quot;additionalInfo2\&quot;:\&quot;+1€ unlock fee, incl. fuel\&quot;,\&quot;tariffID\&quot;:\&quot;STANDARD_PERKM\&quot;,\&quot;tariffTitle\&quot;:\&quot;KM RATE\&quot;,\&quot;unlockFee\&quot;:1.00,\&quot;unlockFee_discounted\&quot;:null,\&quot;perKmFee\&quot;:0.98,\&quot;perKmFee_discounted\&quot;:null,\&quot;preBookingFeePerMinute\&quot;:0.09,\&quot;preBookingFeePerMinute_discounted\&quot;:null,\&quot;parkingFeePerMinute\&quot;:0.29,\&quot;parkingFeePerMinute_discounted\&quot;:null,\&quot;bookingRepeatRestriction_h\&quot;:2,\&quot;isElectric\&quot;:false}],\&quot;prepaidRateList\&quot;: [{\&quot;listItem\&quot;:\&quot;24h (incl. 50km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;49€\&quot;,\&quot;price_numeric\&quot;:49.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;3h (incl. 40km &amp; unlock fee)\&quot;,\&quot;price\&quot;:\&quot;34€\&quot;,\&quot;price_numeric\&quot;:34.00,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:true},{\&quot;listItem\&quot;:\&quot;per extra km\&quot;,\&quot;price\&quot;:\&quot;0.49€\&quot;,\&quot;price_numeric\&quot;:0.49,\&quot;price_CCY\&quot;:\&quot;EUR\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isDailyRate\&quot;:false}],\&quot;vehicleDetails\&quot;: [{\&quot;key\&quot;:\&quot;vehicle_details_engine_power\&quot;,\&quot;item\&quot;:\&quot;Engine Power\&quot;,\&quot;value\&quot;:\&quot;146PS\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_seats\&quot;,\&quot;item\&quot;:\&quot;Seats\&quot;,\&quot;value\&quot;:\&quot;5\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_transmission\&quot;,\&quot;item\&quot;:\&quot;Transmission\&quot;,\&quot;value\&quot;:\&quot;Automatic\&quot;},{\&quot;key\&quot;:\&quot;vehicle_details_fuel\&quot;,\&quot;item\&quot;:\&quot;Fuel\&quot;,\&quot;value\&quot;:\&quot;Gasoline\&quot;}],\&quot;OptimalRateSelector_Hours\&quot;: [{\&quot;txtDuration\&quot;:\&quot;3 h\&quot;,\&quot;nHours\&quot;:3},{\&quot;txtDuration\&quot;:\&quot;6 h\&quot;,\&quot;nHours\&quot;:6},{\&quot;txtDuration\&quot;:\&quot;1 day\&quot;,\&quot;nHours\&quot;:24},{\&quot;txtDuration\&quot;:\&quot;2 days\&quot;,\&quot;nHours\&quot;:48},{\&quot;txtDuration\&quot;:\&quot;3 days\&quot;,\&quot;nHours\&quot;:72},{\&quot;txtDuration\&quot;:\&quot;4 days\&quot;,\&quot;nHours\&quot;:96},{\&quot;txtDuration\&quot;:\&quot;5 days\&quot;,\&quot;nHours\&quot;:120},{\&quot;txtDuration\&quot;:\&quot;6 days\&quot;,\&quot;nHours\&quot;:144},{\&quot;txtDuration\&quot;:\&quot;7 days\&quot;,\&quot;nHours\&quot;:168},{\&quot;txtDuration\&quot;:\&quot;8 days\&quot;,\&quot;nHours\&quot;:192},{\&quot;txtDuration\&quot;:\&quot;9 days\&quot;,\&quot;nHours\&quot;:216},{\&quot;txtDuration\&quot;:\&quot;10 days\&quot;,\&quot;nHours\&quot;:240},{\&quot;txtDuration\&quot;:\&quot;11 days\&quot;,\&quot;nHours\&quot;:264},{\&quot;txtDuration\&quot;:\&quot;12 days\&quot;,\&quot;nHours\&quot;:288},{\&quot;txtDuration\&quot;:\&quot;13 days\&quot;,\&quot;nHours\&quot;:312},{\&quot;txtDuration\&quot;:\&quot;14 days\&quot;,\&quot;nHours\&quot;:336},{\&quot;txtDuration\&quot;:\&quot;15 days\&quot;,\&quot;nHours\&quot;:360},{\&quot;txtDuration\&quot;:\&quot;16 days\&quot;,\&quot;nHours\&quot;:384},{\&quot;txtDuration\&quot;:\&quot;17 days\&quot;,\&quot;nHours\&quot;:408},{\&quot;txtDuration\&quot;:\&quot;18 days\&quot;,\&quot;nHours\&quot;:432},{\&quot;txtDuration\&quot;:\&quot;19 days\&quot;,\&quot;nHours\&quot;:456},{\&quot;txtDuration\&quot;:\&quot;20 days\&quot;,\&quot;nHours\&quot;:480},{\&quot;txtDuration\&quot;:\&quot;21 days\&quot;,\&quot;nHours\&quot;:504},{\&quot;txtDuration\&quot;:\&quot;22 days\&quot;,\&quot;nHours\&quot;:528},{\&quot;txtDuration\&quot;:\&quot;23 days\&quot;,\&quot;nHours\&quot;:552},{\&quot;txtDuration\&quot;:\&quot;24 days\&quot;,\&quot;nHours\&quot;:576},{\&quot;txtDuration\&quot;:\&quot;25 days\&quot;,\&quot;nHours\&quot;:600},{\&quot;txtDuration\&quot;:\&quot;26 days\&quot;,\&quot;nHours\&quot;:624},{\&quot;txtDuration\&quot;:\&quot;27 days\&quot;,\&quot;nHours\&quot;:648},{\&quot;txtDuration\&quot;:\&quot;28 days\&quot;,\&quot;nHours\&quot;:672},{\&quot;txtDuration\&quot;:\&quot;29 days\&quot;,\&quot;nHours\&quot;:696},{\&quot;txtDuration\&quot;:\&quot;30 days\&quot;,\&quot;nHours\&quot;:720}],\&quot;stardardRate_descriptionTexts\&quot;: [[{\&quot;row1\&quot;:\&quot;This is our standard km rate! This will be automatically applied if you start your ride. This will be the best rate if you don't know how long your trip will take.\&quot;,\&quot;row1_discounted\&quot;:\&quot;This is our discounted km rate. This will be automatically applied if you start your ride with this vehicle and no other rate was applied. Please note that the reduced km rate is not applied to subsequent rides as well as cancelled or expired reservations.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;Included within this km rate:\&quot;,\&quot;lower_text\&quot;:\&quot;Fuel costs (partner stations). No extra parking ticket for paid public parking in our business area needed.\&quot;,\&quot;lower_warning\&quot;:\&quot;⚠️ Should your ride be longer and reach the terms and specification of a better and cheaper day rate, the cheaper rate will automatically be applied.\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}]],\&quot;stardardRate_details\&quot;: [[{\&quot;title\&quot;:\&quot;km\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;0.98€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:true},{\&quot;title\&quot;:\&quot;Unlock Fee\&quot;,\&quot;subtitle\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;1€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Parking minutes\&quot;,\&quot;subtitle\&quot;:\&quot;in compliance with the booking duration time\&quot;,\&quot;price\&quot;:\&quot;0.29€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false},{\&quot;title\&quot;:\&quot;Fuel\&quot;,\&quot;subtitle\&quot;:\&quot;free refueling at our partner gas stations\&quot;,\&quot;price\&quot;:\&quot;0€\&quot;,\&quot;price_discounted\&quot;:null,\&quot;isBold\&quot;:false}]],\&quot;vehicleBanner\&quot;: [{\&quot;color\&quot;:\&quot;\&quot;,\&quot;text\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;delay\&quot;:\&quot;\&quot;,\&quot;clickAction\&quot;:\&quot;\&quot;}],\&quot;vehicleDescriptors\&quot;: {\&quot;detailsText\&quot;:\&quot;This is a keyless vehicle! Please press the break pedal and start the engine via the START\/STOP button in the vehicle.\&quot;,\&quot;isCharity\&quot;:false,\&quot;text1\&quot;:\&quot;\&quot;,\&quot;text2\&quot;:\&quot;\&quot;,\&quot;text3\&quot;:\&quot;\&quot;,\&quot;text4\&quot;:\&quot;\&quot;,\&quot;text5\&quot;:\&quot;\&quot;},\&quot;vehicleExtras\&quot;: {\&quot;item\&quot;:\&quot;vehicle_extras_navigator\&quot;,\&quot;itemvalue\&quot;:\&quot;Yes\&quot;}}&quot;,
+        &quot;FVDPrice&quot;: &quot;0.98€&quot;,
+        &quot;URLVehicleImage&quot;: &quot;https://api.app.miles-mobility.com/static/img/cars/small/Audi_A4Avant.png&quot;,
+        &quot;JSONVehicleDamages&quot;: null,
+        &quot;SpecialAirportRate&quot;: null,
+        &quot;SpecialRates&quot;: null,
+        &quot;ShowSpecialAirportRate&quot;: true,
+        &quot;nDaysRookieDelay&quot;: 0,
+        &quot;CityToCityOptions&quot;: &quot;{\&quot;OriginCity\&quot;: \&quot;BERLIN\&quot;, \&quot;Destinations\&quot;: [{\&quot;idCity\&quot;:\&quot;BNN\&quot;,\&quot;Destination\&quot;:\&quot;Bonn\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;CGN\&quot;,\&quot;Destination\&quot;:\&quot;Cologne\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUI\&quot;,\&quot;Destination\&quot;:\&quot;Duisburg\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;DUS\&quot;,\&quot;Destination\&quot;:\&quot;Düsseldorf\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;HAM\&quot;,\&quot;Destination\&quot;:\&quot;Hamburg\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;MUC\&quot;,\&quot;Destination\&quot;:\&quot;Munich\&quot;,\&quot;Price\&quot;:\&quot;19.5€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;},{\&quot;idCity\&quot;:\&quot;PTD\&quot;,\&quot;Destination\&quot;:\&quot;Potsdam\&quot;,\&quot;Price\&quot;:\&quot;0€\&quot;,\&quot;Price_discounted\&quot;:\&quot;\&quot;}], \&quot;NotPossibleDestinations\&quot;: null}&quot;,
+        &quot;PremiumRestrictedTxt&quot;: &quot;&quot;,
+        &quot;RookieDelayTxt&quot;: &quot;&quot;
+      }
+    ],
+    &quot;clusters&quot;: [],
+    &quot;pois&quot;: [],
+    &quot;partners&quot;: []
+  }
+}
+</code></pre>
+<p>The following request will only return clusters </p>
+<p><code>https://api.app.miles-mobility.com/mobile/Vehicles?deviceKey=&lt;YOUR_DEVICE_KEY&gt;&amp;latitude=52.46772&amp;longitude=13.507673&amp;latitudeDelta=0.021653345980664086&amp;longitudeDelta=0.016843199729919434&amp;userLatitude=25.11645255113832&amp;userLongitude=55.39148236389842&amp;lang=en&amp;FuelLevelFilterMin=0&amp;FuelLevelFilterMax=100&amp;VehicleSizeFilter=S,M,L,P&amp;vehicleEngineFilter=&amp;VehicleSeatsFilter=3,5&amp;VehicleTransmissionFilter=M,A&amp;zoomLevel=10&amp;showOnlyDiscountedVehicles=0&amp;showFuelingStations=0&amp;showChargingStations=0&amp;showMilesPartners=0</code></p>
+<pre><code class="language-json">{
+    &quot;Result&quot;: &quot;OK&quot;,
+    &quot;ResponseText&quot;: null,
+    &quot;Data&quot;: {
+        &quot;response&quot;: {
+            &quot;Result&quot;: &quot;OK&quot;,
+            &quot;ResponseText&quot;: &quot;&quot;,
+            &quot;idVehicleBooked&quot;: null,
+            &quot;idRide&quot;: null,
+            &quot;idVehicleInRide&quot;: null,
+            &quot;NearestIdCity&quot;: &quot;BER&quot;,
+            &quot;LivePayment&quot;: false,
+            &quot;TopUpRequired&quot;: false,
+            &quot;userAppVersion&quot;: 0.00,
+            &quot;nFilterElements&quot;: 0,
+            &quot;UserInOpsMode&quot;: false,
+            &quot;CloseForceDisplayVehicle&quot;: false,
+            &quot;SpecialAirportRate&quot;: &quot;{\&quot;previewBox\&quot;: [{\&quot;generalTittle\&quot;:\&quot;SPECIAL AIRPORT RATE\&quot;,\&quot;tariffTittle\&quot;:\&quot;AIRPORT RATE\&quot;,\&quot;tariffId\&quot;:\&quot;AIRP_BER\&quot;,\&quot;tariffName\&quot;:\&quot;BER \/ P &lt;&gt; BER airport\&quot;,\&quot;tariff\&quot;:\&quot;34€\&quot;,\&quot;tariff_numeric\&quot;:34.00,\&quot;tariff_ccy\&quot;:\&quot;EUR\&quot;,\&quot;tariff_old\&quot;:null,\&quot;tariff_old2\&quot;:null,\&quot;lower_row1\&quot;:\&quot;(!) You pay 34€ for each route.\&quot;,\&quot;lower_row2\&quot;:\&quot;incl. 1€ Unlock Fee\&quot;}],\&quot;descriptionTexts\&quot;: [{\&quot;row1\&quot;:\&quot;This rate includes 60 km max. distance, 90 minutes max. duration time incl. 20 minutes max. parking time.\&quot;,\&quot;info_title\&quot;:\&quot;Important information\&quot;,\&quot;info_text\&quot;:\&quot;Included within this airport rate: Unlock fee &amp; fuel \/ charging costs. In order to apply the rate, the start or end of the ride should happen at the BER airport, and comply with max 60 km distance &amp; 90 min ride duration. Otherwise, the best available standard rate will be applied.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;The cost of the selected rate will the charged when starting the rental.\&quot;,\&quot;confirmation_message\&quot;:\&quot;Apply the SPECIAL AIRPORT RATE to your ride?\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}],\&quot;rateDetails\&quot;: [{\&quot;title\&quot;:\&quot;Distance\&quot;,\&quot;text\&quot;:\&quot;60km\&quot;},{\&quot;title\&quot;:\&quot;Duration\&quot;,\&quot;text\&quot;:\&quot;90 min\&quot;},{\&quot;title\&quot;:\&quot;Pick up \/ Drop off\&quot;,\&quot;text\&quot;:\&quot;BER airport\&quot;}],\&quot;freeFeatures\&quot;: [{\&quot;text\&quot;:\&quot;Unlock Fee\&quot;,\&quot;text2\&quot;:\&quot;\&quot;},{\&quot;text\&quot;:\&quot;Parking minutes\&quot;,\&quot;text2\&quot;:\&quot;(limited to 20 minutes)\&quot;},{\&quot;text\&quot;:\&quot;Fueling \/ Charging\&quot;,\&quot;text2\&quot;:\&quot;(free fueling \/ charging on all stations shown in the app)\&quot;},{\&quot;text\&quot;:\&quot;Parking ticket\&quot;,\&quot;text2\&quot;:\&quot;\&quot;}],\&quot;extraCosts\&quot;: [{\&quot;text\&quot;:\&quot;&lt;u&gt;Parking tickets&lt;\/u&gt; for parking at &lt;u&gt;non&lt;\/u&gt; public parking spots\&quot;,\&quot;text2\&quot;:\&quot;(also parking outside our business area where a ticket is needed)\&quot;}]}&quot;,
+            &quot;SpecialAirportRate_E&quot;: &quot;{\&quot;previewBox\&quot;: [{\&quot;generalTittle\&quot;:\&quot;SPECIAL AIRPORT RATE\&quot;,\&quot;tariffTittle\&quot;:\&quot;AIRPORT RATE\&quot;,\&quot;tariffId\&quot;:\&quot;AIRP_BER\&quot;,\&quot;tariffName\&quot;:\&quot;BER \/ P &lt;&gt; BER airport\&quot;,\&quot;tariff\&quot;:\&quot;34€\&quot;,\&quot;tariff_numeric\&quot;:34.00,\&quot;tariff_ccy\&quot;:\&quot;EUR\&quot;,\&quot;tariff_old\&quot;:null,\&quot;tariff_old2\&quot;:null,\&quot;lower_row1\&quot;:\&quot;(!) You pay 34€ for each route.\&quot;,\&quot;lower_row2\&quot;:\&quot;incl. 1€ Unlock Fee\&quot;}],\&quot;descriptionTexts\&quot;: [{\&quot;row1\&quot;:\&quot;This rate includes 60 km max. distance, 90 minutes max. duration time incl. 20 minutes max. parking time.\&quot;,\&quot;info_title\&quot;:\&quot;Important information\&quot;,\&quot;info_text\&quot;:\&quot;Included within this airport rate: Unlock fee &amp; electricity costs. In order to apply the rate, the start or end of the ride should happen at the BER airport, and comply with max 60 km distance &amp; 90 min ride duration. Otherwise, the best available standard rate will be applied.\&quot;,\&quot;lower_bold_text\&quot;:\&quot;The cost of the selected rate will the charged when starting the rental.\&quot;,\&quot;confirmation_message\&quot;:\&quot;Apply the SPECIAL AIRPORT RATE to your ride?\&quot;,\&quot;greybox_icon\&quot;:null,\&quot;greybox_text\&quot;:null}],\&quot;rateDetails\&quot;: [{\&quot;title\&quot;:\&quot;Distance\&quot;,\&quot;text\&quot;:\&quot;60km\&quot;},{\&quot;title\&quot;:\&quot;Duration\&quot;,\&quot;text\&quot;:\&quot;90 min\&quot;},{\&quot;title\&quot;:\&quot;Pick up \/ Drop off\&quot;,\&quot;text\&quot;:\&quot;BER airport\&quot;}],\&quot;freeFeatures\&quot;: [{\&quot;text\&quot;:\&quot;Unlock Fee\&quot;,\&quot;text2\&quot;:\&quot;\&quot;},{\&quot;text\&quot;:\&quot;Parking minutes\&quot;,\&quot;text2\&quot;:\&quot;(limited to 20 minutes)\&quot;},{\&quot;text\&quot;:\&quot;Electricity\&quot;,\&quot;text2\&quot;:\&quot;(free charging at the charging stations shown in the app)\&quot;},{\&quot;text\&quot;:\&quot;Parking ticket\&quot;,\&quot;text2\&quot;:\&quot;\&quot;}],\&quot;extraCosts\&quot;: [{\&quot;text\&quot;:\&quot;&lt;u&gt;Parking tickets&lt;\/u&gt; for parking at &lt;u&gt;non&lt;\/u&gt; public parking spots\&quot;,\&quot;text2\&quot;:\&quot;(also parking outside our business area where a ticket is needed)\&quot;}]}&quot;,
+            &quot;SpecialAirportRate_2&quot;: null,
+            &quot;SpecialAirportRate_E_2&quot;: null,
+            &quot;UsesPPC&quot;: false,
+            &quot;CurrentSubscription&quot;: null,
+            &quot;JSONCityAreas&quot;: &quot;&quot;,
+            &quot;CityAreasTimestamp&quot;: &quot;2001-01-01T00:00:00&quot;,
+            &quot;AdditionalInfo&quot;: &quot;{ \&quot;MinZoomPA\&quot;: 12, \&quot;DeltaPA\&quot;: 3.00, \&quot;HubAutoOpen\&quot;: 17, \&quot;Banner\&quot;: null}&quot;
+        },
+        &quot;vehicles&quot;: [],
+        &quot;clusters&quot;: [
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;1C62A4A62AA08838FE082A94CD22B8D4&quot;,
+                &quot;Latitude&quot;: 52.36491193518517,
+                &quot;Longitude&quot;: 13.514991,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.364273,\&quot;longitude\&quot;:13.515244},{\&quot;latitude\&quot;:52.364468,\&quot;longitude\&quot;:13.515865}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;24F85CEBE97ED2626A47E3B893A86B67&quot;,
+                &quot;Latitude&quot;: 52.476438568627437,
+                &quot;Longitude&quot;: 13.499870122549012,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.473137,\&quot;longitude\&quot;:13.489146},{\&quot;latitude\&quot;:52.481567,\&quot;longitude\&quot;:13.502348}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;1ED211DB0A61E8061E102EDA3BA0A954&quot;,
+                &quot;Latitude&quot;: 52.48883972213968,
+                &quot;Longitude&quot;: 13.421315465081712,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.484619,\&quot;longitude\&quot;:13.421391},{\&quot;latitude\&quot;:52.494125,\&quot;longitude\&quot;:13.429657}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;99D7A8B24914D4A640F6D73648845A64&quot;,
+                &quot;Latitude&quot;: 52.487271229357809,
+                &quot;Longitude&quot;: 13.327233435779819,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.485374,\&quot;longitude\&quot;:13.324369},{\&quot;latitude\&quot;:52.489918,\&quot;longitude\&quot;:13.332579}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;2D3506D891249C113B6E96B778684997&quot;,
+                &quot;Latitude&quot;: 52.518444723880592,
+                &quot;Longitude&quot;: 13.50465354477612,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.512955,\&quot;longitude\&quot;:13.496438},{\&quot;latitude\&quot;:52.518246,\&quot;longitude\&quot;:13.507272}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;76B7EF830AF881C0EB49639444DF47D5&quot;,
+                &quot;Latitude&quot;: 52.521327405982873,
+                &quot;Longitude&quot;: 13.304936132478636,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.516758,\&quot;longitude\&quot;:13.299164},{\&quot;latitude\&quot;:52.525692,\&quot;longitude\&quot;:13.309978}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;0AEC36D86F3CCFC30259893F2CDCA14E&quot;,
+                &quot;Latitude&quot;: 52.530177202995048,
+                &quot;Longitude&quot;: 13.437771054908497,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.529778,\&quot;longitude\&quot;:13.433264},{\&quot;latitude\&quot;:52.532642,\&quot;longitude\&quot;:13.441862}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;E95972D9F9D5071E418D7FFEB487E510&quot;,
+                &quot;Latitude&quot;: 52.540191245681378,
+                &quot;Longitude&quot;: 13.374652401151646,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.538395,\&quot;longitude\&quot;:13.371553},{\&quot;latitude\&quot;:52.541283,\&quot;longitude\&quot;:13.377926}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;C8430FBB65327D1447C7A678DA9C7095&quot;,
+                &quot;Latitude&quot;: 52.543878499999991,
+                &quot;Longitude&quot;: 13.598541499999996,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.542953,\&quot;longitude\&quot;:13.596578},{\&quot;latitude\&quot;:52.544621,\&quot;longitude\&quot;:13.599528}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;1D333B5AE5A8C7F91D76C462DA009955&quot;,
+                &quot;Latitude&quot;: 52.575642166666661,
+                &quot;Longitude&quot;: 13.394522507246378,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.574009,\&quot;longitude\&quot;:13.390413},{\&quot;latitude\&quot;:52.578449,\&quot;longitude\&quot;:13.398307}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;74D6C1966543AF3CCD6307ACC91E36A9&quot;,
+                &quot;Latitude&quot;: 52.582936602150532,
+                &quot;Longitude&quot;: 13.31251331182796,
+                &quot;nUnits&quot;: 10,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.574177,\&quot;longitude\&quot;:13.294025},{\&quot;latitude\&quot;:52.581032,\&quot;longitude\&quot;:13.320618}]&quot;
+            },
+            {
+                &quot;idCluster&quot;: null,
+                &quot;idClusterHash&quot;: &quot;919935758C7B5317A4F469EB044245AF&quot;,
+                &quot;Latitude&quot;: 52.633283500000005,
+                &quot;Longitude&quot;: 13.496205,
+                &quot;nUnits&quot;: 4,
+                &quot;Bounds&quot;: &quot;[{\&quot;latitude\&quot;:52.628384,\&quot;longitude\&quot;:13.492306},{\&quot;latitude\&quot;:52.635082,\&quot;longitude\&quot;:13.506649}]&quot;
+            }
+        ],
+        &quot;pois&quot;: [],
+        &quot;partners&quot;: []
+    }
+}
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../js/widgetla.js"></script>
+        <script src="../../js/disable_shortcuts.js"></script>
+        <script src="../../css/styles.css"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

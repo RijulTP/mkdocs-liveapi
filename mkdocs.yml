@@ -3,3 +3,4 @@ extra_javascript:
   - js/widgetla.js
   - js/disable_shortcuts.js
   - css/styles.css
+repo_url: https://github.com/RijulTP/mkdocs-liveapi
