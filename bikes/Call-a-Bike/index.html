@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Call a Bike - WoBike</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">WoBike</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bikes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Avocargo/" class="dropdown-item">Avocargo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Baqme/" class="dropdown-item">Baqme (E-cargo bike)</a>
+</li>
+                                    
+<li>
+    <a href="../Beam/" class="dropdown-item">Beam</a>
+</li>
+                                    
+<li>
+    <a href="../Bicikelj/" class="dropdown-item">Bicikelj</a>
+</li>
+                                    
+<li>
+    <a href="../Bird/" class="dropdown-item">Bird (Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Bixi/" class="dropdown-item">Bixi (Montréal, QC, Canada)</a>
+</li>
+                                    
+<li>
+    <a href="../Blip/" class="dropdown-item">Blip</a>
+</li>
+                                    
+<li>
+    <a href="../Blueduck/" class="dropdown-item">Blue Duck</a>
+</li>
+                                    
+<li>
+    <a href="../Bluegogo/" class="dropdown-item">Bluegogo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Bolt/" class="dropdown-item">Bolt (E-Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Bond/" class="dropdown-item">Bond (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Call a Bike</a>
+</li>
+                                    
+<li>
+    <a href="../Cambio/" class="dropdown-item">Cambio</a>
+</li>
+                                    
+<li>
+    <a href="../Cargaroo/" class="dropdown-item">Cargaroo</a>
+</li>
+                                    
+<li>
+    <a href="../Circ/" class="dropdown-item">Flash / Circ / Bird (scooters) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../CityBikeWien/" class="dropdown-item">CityBike Wien (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Coup/" class="dropdown-item">Coup (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Donkey/" class="dropdown-item">Donkey Republic</a>
+</li>
+                                    
+<li>
+    <a href="../Dropbike/" class="dropdown-item">Dropbike (Canada)</a>
+</li>
+                                    
+<li>
+    <a href="../EUBike/" class="dropdown-item">Introduction (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Eddy/" class="dropdown-item">eddy</a>
+</li>
+                                    
+<li>
+    <a href="../Emmy/" class="dropdown-item">Emmy</a>
+</li>
+                                    
+<li>
+    <a href="../EnTur/" class="dropdown-item">EnTur (Aggregate endpoint, Norway)</a>
+</li>
+                                    
+<li>
+    <a href="../Evhcle/" class="dropdown-item">Evhcle</a>
+</li>
+                                    
+<li>
+    <a href="../Evo%20Sharing/" class="dropdown-item">Evo Sharing</a>
+</li>
+                                    
+<li>
+    <a href="../Felyx/" class="dropdown-item">Felyx</a>
+</li>
+                                    
+<li>
+    <a href="../Flamingo/" class="dropdown-item">Flamingo</a>
+</li>
+                                    
+<li>
+    <a href="../Frank-e/" class="dropdown-item">Frank-e</a>
+</li>
+                                    
+<li>
+    <a href="../Go-Sharing/" class="dropdown-item">Go Sharing</a>
+</li>
+                                    
+<li>
+    <a href="../Gobee/" class="dropdown-item">Gobee Bike (gobee)</a>
+</li>
+                                    
+<li>
+    <a href="../Helbiz/" class="dropdown-item">Helbiz (Scooter)</a>
+</li>
+                                    
+<li>
+    <a href="../Hive/" class="dropdown-item">Hive (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Jump/" class="dropdown-item">JUMP (USA) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Kruiser/" class="dropdown-item">Kruiser</a>
+</li>
+                                    
+<li>
+    <a href="../Lidl-Bike/" class="dropdown-item">Lidl-Bike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Lime/" class="dropdown-item">Lime</a>
+</li>
+                                    
+<li>
+    <a href="../Link/" class="dropdown-item">Link</a>
+</li>
+                                    
+<li>
+    <a href="../Miles/" class="dropdown-item">Miles</a>
+</li>
+                                    
+<li>
+    <a href="../Mobike/" class="dropdown-item">Mobike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Motivate/" class="dropdown-item">Motivate</a>
+</li>
+                                    
+<li>
+    <a href="../Neuron/" class="dropdown-item">Neuron</a>
+</li>
+                                    
+<li>
+    <a href="../Nextbike/" class="dropdown-item">Nextbike (Worldwide)</a>
+</li>
+                                    
+<li>
+    <a href="../Obike/" class="dropdown-item">Obike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Ofo/" class="dropdown-item">Ofo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Onzo/" class="dropdown-item">Onzo (bikes, Location: New Zealand) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Pony/" class="dropdown-item">Pony</a>
+</li>
+                                    
+<li>
+    <a href="../Ryde/" class="dropdown-item">Ryde</a>
+</li>
+                                    
+<li>
+    <a href="../Scoota/" class="dropdown-item">Scoota (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Sigo/" class="dropdown-item">Sigo</a>
+</li>
+                                    
+<li>
+    <a href="../SocialBicycles/" class="dropdown-item">SocialBicycles (USA, Canada, Czech Republic, Poland)</a>
+</li>
+                                    
+<li>
+    <a href="../Spin/" class="dropdown-item">Spin (Bikes and Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Stella/" class="dropdown-item">stella</a>
+</li>
+                                    
+<li>
+    <a href="../Tier/" class="dropdown-item">Tier</a>
+</li>
+                                    
+<li>
+    <a href="../Ufo/" class="dropdown-item">Ufo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Vaimoo/" class="dropdown-item">Vaimoo</a>
+</li>
+                                    
+<li>
+    <a href="../VeloAntwerpen/" class="dropdown-item">Velo Antwerpen</a>
+</li>
+                                    
+<li>
+    <a href="../Voi/" class="dropdown-item">Introduction:</a>
+</li>
+                                    
+<li>
+    <a href="../WeShare/" class="dropdown-item">WeShare (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Wind/" class="dropdown-item">WIND (former BYKE)</a>
+</li>
+                                    
+<li>
+    <a href="../Yobike/" class="dropdown-item">Yobike and yobike-based provider (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Zagster/" class="dropdown-item">Zagster (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Zero/" class="dropdown-item">Zero (defunct)</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Bond/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Cambio/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/RijulTP/mkdocs-liveapi/edit/master/docs/bikes/Call-a-Bike.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#call-a-bike" class="nav-link">Call a Bike</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="call-a-bike">Call a Bike</h1>
+<p>Call-a-Bike has <a href="http://data.deutschebahn.com/dataset/data-call-a-bike">historic datasets</a> OpenData on the DeutscheBahn OpenData portal under CC-BY License.</p>
+<p>You can use the <a href="http://data.deutschebahn.com/dataset/flinkster-api">Flinkster API</a> with <code>providernetwork=2</code> to access Call-a-Bike live Data. You need to register on <a href="https://developer.deutschebahn.com/store/site/pages/sign-up.jag">developer.deutschebahn.com</a> to get a free, unlimited API Key (Zugangstoken).</p>
+<p>Example Request: <code>https://api.deutschebahn.com/flinkster-api-ng/v1/bookingproposals?lat=48.15&amp;lon=11.5&amp;radius=5000&amp;limit=100&amp;providernetwork=2</code> – You also have to set the <code>Authorization</code> header to <code>Bearer &lt;YOUR-API-KEY&gt;</code></p>
+<ul>
+<li>Paramter <code>limit</code> max value is <code>100</code>, but you can use <code>offset</code> to request more</li>
+<li>Paramter <code>radius</code> is the searchradius in meters, max value is <code>10000</code>, min value is <code>100</code>, default <code>500</code>,</li>
+<li>You can also add parameter <code>expand</code> to <code>rentalobject,price</code> to get vehicle and price info</li>
+</ul>
+<p>There is also a <a href="https://developer.deutschebahn.com/store/site/themes/responsive/templates/api/documentation/download.jag?tenant=carbon.super&amp;resourceUrl=/registry/resource/_system/governance/apimgt/applicationdata/provider/DBOpenData/Flinkster_API_NG/v1/documentation/files/Schnittstellenspezifikation_FlinksterApiNG.pdf">Documentation PDF</a> (german only), and you can use the <a href="https://developer.deutschebahn.com/store/apis/info?name=Flinkster_API_NG&amp;version=v1&amp;provider=DBOpenData">API-console (3rd tab)</a></p>
+<p>If you need GBFS, maybe this <a href="https://github.com/mfdz/flinkster2gbfs">flinkster2gbfs</a> adapter can help.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../js/widgetla.js"></script>
+        <script src="../../js/disable_shortcuts.js"></script>
+        <script src="../../css/styles.css"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Emmy - WoBike</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">WoBike</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bikes</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Avocargo/" class="dropdown-item">Avocargo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Baqme/" class="dropdown-item">Baqme (E-cargo bike)</a>
+</li>
+                                    
+<li>
+    <a href="../Beam/" class="dropdown-item">Beam</a>
+</li>
+                                    
+<li>
+    <a href="../Bicikelj/" class="dropdown-item">Bicikelj</a>
+</li>
+                                    
+<li>
+    <a href="../Bird/" class="dropdown-item">Bird (Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Bixi/" class="dropdown-item">Bixi (Montréal, QC, Canada)</a>
+</li>
+                                    
+<li>
+    <a href="../Blip/" class="dropdown-item">Blip</a>
+</li>
+                                    
+<li>
+    <a href="../Blueduck/" class="dropdown-item">Blue Duck</a>
+</li>
+                                    
+<li>
+    <a href="../Bluegogo/" class="dropdown-item">Bluegogo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Bolt/" class="dropdown-item">Bolt (E-Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Bond/" class="dropdown-item">Bond (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Call-a-Bike/" class="dropdown-item">Call a Bike</a>
+</li>
+                                    
+<li>
+    <a href="../Cambio/" class="dropdown-item">Cambio</a>
+</li>
+                                    
+<li>
+    <a href="../Cargaroo/" class="dropdown-item">Cargaroo</a>
+</li>
+                                    
+<li>
+    <a href="../Circ/" class="dropdown-item">Flash / Circ / Bird (scooters) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../CityBikeWien/" class="dropdown-item">CityBike Wien (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Coup/" class="dropdown-item">Coup (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Donkey/" class="dropdown-item">Donkey Republic</a>
+</li>
+                                    
+<li>
+    <a href="../Dropbike/" class="dropdown-item">Dropbike (Canada)</a>
+</li>
+                                    
+<li>
+    <a href="../EUBike/" class="dropdown-item">Introduction (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Eddy/" class="dropdown-item">eddy</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Emmy</a>
+</li>
+                                    
+<li>
+    <a href="../EnTur/" class="dropdown-item">EnTur (Aggregate endpoint, Norway)</a>
+</li>
+                                    
+<li>
+    <a href="../Evhcle/" class="dropdown-item">Evhcle</a>
+</li>
+                                    
+<li>
+    <a href="../Evo%20Sharing/" class="dropdown-item">Evo Sharing</a>
+</li>
+                                    
+<li>
+    <a href="../Felyx/" class="dropdown-item">Felyx</a>
+</li>
+                                    
+<li>
+    <a href="../Flamingo/" class="dropdown-item">Flamingo</a>
+</li>
+                                    
+<li>
+    <a href="../Frank-e/" class="dropdown-item">Frank-e</a>
+</li>
+                                    
+<li>
+    <a href="../Go-Sharing/" class="dropdown-item">Go Sharing</a>
+</li>
+                                    
+<li>
+    <a href="../Gobee/" class="dropdown-item">Gobee Bike (gobee)</a>
+</li>
+                                    
+<li>
+    <a href="../Helbiz/" class="dropdown-item">Helbiz (Scooter)</a>
+</li>
+                                    
+<li>
+    <a href="../Hive/" class="dropdown-item">Hive (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Jump/" class="dropdown-item">JUMP (USA) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Kruiser/" class="dropdown-item">Kruiser</a>
+</li>
+                                    
+<li>
+    <a href="../Lidl-Bike/" class="dropdown-item">Lidl-Bike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Lime/" class="dropdown-item">Lime</a>
+</li>
+                                    
+<li>
+    <a href="../Link/" class="dropdown-item">Link</a>
+</li>
+                                    
+<li>
+    <a href="../Miles/" class="dropdown-item">Miles</a>
+</li>
+                                    
+<li>
+    <a href="../Mobike/" class="dropdown-item">Mobike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Motivate/" class="dropdown-item">Motivate</a>
+</li>
+                                    
+<li>
+    <a href="../Neuron/" class="dropdown-item">Neuron</a>
+</li>
+                                    
+<li>
+    <a href="../Nextbike/" class="dropdown-item">Nextbike (Worldwide)</a>
+</li>
+                                    
+<li>
+    <a href="../Obike/" class="dropdown-item">Obike (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Ofo/" class="dropdown-item">Ofo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Onzo/" class="dropdown-item">Onzo (bikes, Location: New Zealand) (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Pony/" class="dropdown-item">Pony</a>
+</li>
+                                    
+<li>
+    <a href="../Ryde/" class="dropdown-item">Ryde</a>
+</li>
+                                    
+<li>
+    <a href="../Scoota/" class="dropdown-item">Scoota (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Sigo/" class="dropdown-item">Sigo</a>
+</li>
+                                    
+<li>
+    <a href="../SocialBicycles/" class="dropdown-item">SocialBicycles (USA, Canada, Czech Republic, Poland)</a>
+</li>
+                                    
+<li>
+    <a href="../Spin/" class="dropdown-item">Spin (Bikes and Scooters)</a>
+</li>
+                                    
+<li>
+    <a href="../Stella/" class="dropdown-item">stella</a>
+</li>
+                                    
+<li>
+    <a href="../Tier/" class="dropdown-item">Tier</a>
+</li>
+                                    
+<li>
+    <a href="../Ufo/" class="dropdown-item">Ufo (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Vaimoo/" class="dropdown-item">Vaimoo</a>
+</li>
+                                    
+<li>
+    <a href="../VeloAntwerpen/" class="dropdown-item">Velo Antwerpen</a>
+</li>
+                                    
+<li>
+    <a href="../Voi/" class="dropdown-item">Introduction:</a>
+</li>
+                                    
+<li>
+    <a href="../WeShare/" class="dropdown-item">WeShare (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Wind/" class="dropdown-item">WIND (former BYKE)</a>
+</li>
+                                    
+<li>
+    <a href="../Yobike/" class="dropdown-item">Yobike and yobike-based provider (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Zagster/" class="dropdown-item">Zagster (defunct)</a>
+</li>
+                                    
+<li>
+    <a href="../Zero/" class="dropdown-item">Zero (defunct)</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Eddy/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../EnTur/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/RijulTP/mkdocs-liveapi/edit/master/docs/bikes/Emmy.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#emmy" class="nav-link">Emmy</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#general-stuff" class="nav-link">General stuff</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#auth" class="nav-link">Auth</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#vehicle-related-information" class="nav-link">Vehicle related information</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#rental" class="nav-link">Rental</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#user-relatet-stuff" class="nav-link">User relatet stuff</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#other-stuff" class="nav-link">Other stuff</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="emmy">Emmy</h1>
+<p><a href="https://emmy-sharing.de/">Emmy</a> is a german rental service for electric 
+motorbikes 🛵 (also called scooter, the wording is a mess). Currently, Emmy 
+offers its service in Berlin, Hamburg and Munich.</p>
+<h2 id="general-stuff">General stuff</h2>
+<p>API is based on exchanging json messages.
+<strong>Base url</strong>: <code>https://api.emmy.ninja</code></p>
+<p>Below you find most API calls that the official emmy android app uses. However, 
+some of them are not really tested. Additionally, there are even more API calls 
+mostly related to the verification process (Upload video etc).</p>
+<h2 id="auth">Auth</h2>
+<h3 id="login">Login</h3>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/auth/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;password&quot;: &quot;pass&quot;,
+    &quot;username&quot;: &quot;email&quot;
+}'
+</code></pre>
+<p>You'll receive a bunch of information related to your user. For authentication 
+the <code>accessToken</code> is needed. With that, you can create the authorization header 
+as following: <code>Authorization: Bearer $ACCESS_TOKEN</code>. Sometimes you need the 
+<code>signupToken</code> instead of the accessToken. When ever this is needed the 
+authorization is written that way: <code>Authorization: Bearer $SIGNUP_TOKEN</code></p>
+<h3 id="logout">Logout</h3>
+<p>There is also an option to log out (invalidate the accessToken?)
+tbc</p>
+<h3 id="reset-password">Reset Password</h3>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/reset-password' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;email&quot;: &quot;mail@example.org&quot;
+}'
+</code></pre>
+<h3 id="renew-password">Renew Password</h3>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/users/$USER_ID/password' \
+--header 'Authorization: Bearer $SIGNUP_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;email&quot;: &quot;mail@example.org&quot;,
+    &quot;oldPassword&quot;: &quot;foo&quot;,
+    &quot;newPassword&quot;: &quot;bar&quot;
+}'
+</code></pre>
+<h2 id="vehicle-related-information">Vehicle related information</h2>
+<p>Some requests work without suppling authorization as they are public 
+information.</p>
+<h3 id="list-vehicles">List vehicles</h3>
+<p>Lists all vehicles that are available for renting.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/vehicles'
+</code></pre>
+<h3 id="show-vehicle">Show vehicle</h3>
+<p>Show information for a specific vehicle by <code>$VEHICLE_ID</code>. Get the ID by 
+calling the general <code>vehicles</code> endpoint. Note: The ID seems to be 
+auto-increment. You'll find more vehicles by simply incrementing the ID - even 
+those that are currently not available for rental.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/vehicles/$VEHICLE_ID'
+</code></pre>
+<h3 id="list-vehicle-types">List Vehicle Types</h3>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/vehicles/types'
+</code></pre>
+<h3 id="send-damage-report">Send damage report</h3>
+<p>When you notice a damage on a vehicle before you go on a ride, you can send a 
+damage report. Note, that you need a rentalId for it that you obtain when 
+<a href="#create-rental">creating a rental</a> on a vehicle.</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/vehicles/$VEHICLE_ID/damages' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' \
+--data-raw '{
+    &quot;description&quot;: &quot;A human readable description of the damage&quot;,
+    &quot;damages&quot;: [
+        {
+            &quot;position&quot;: &quot;foo&quot;,
+            &quot;type&quot;: &quot;bar&quot;
+        }
+    ],
+    &quot;rentalId&quot;: $RENTAL_ID
+}' 
+</code></pre>
+<h2 id="rental">Rental</h2>
+<h3 id="create-rental">Create Rental</h3>
+<p>In order to create a rental, you need a <code>$VEHICLE_ID</code>.</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/vehicles/$VEHICLE_ID/rentals' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{}'
+</code></pre>
+<p>This starts a reservation and you have 15 min time to actually start the rental.
+In the response you receive a rentalId that you have to store as <code>$RENTAL_ID</code> 
+for later usage.</p>
+<h3 id="start-rental">Start Rental</h3>
+<p>:warning: Calling this method successfully will charge your account! You have to
+pay the price that is given in the <a href="#show-vehicle">vehicle information</a> as 
+<code>pricingDuringRide</code>.</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/vehicles/$VEHICLE_ID/rentals/$RENTAL_ID/start' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;isCarClean&quot;: false,
+    &quot;isCarDamaged&quot;: false,
+    &quot;isDriversLicenceWithUser&quot;: false
+}'
+</code></pre>
+<p>Note: you can set all values to <code>true</code> or <code>false</code>. The API doesn't care and will
+start the rental either way.</p>
+<h3 id="stop-rental">Stop Rental</h3>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/vehicles/$VEHICLE_ID/rentals/$RENTAL_ID/stop' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{}'
+</code></pre>
+<h3 id="pause-rental">Pause Rental</h3>
+<p>You can also pause the rental if you want to park your vehicle and but want to 
+use it later. This will reduce the price per minute as specified in 
+<code>pricingDuringPark</code> in the <a href="#show-vehicle">vehicle information</a></p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/vehicles/$VEHICLE_ID/rentals/$RENTAL_ID/park' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{}'
+</code></pre>
+<h2 id="user-relatet-stuff">User relatet stuff</h2>
+<p>The API exposes some information on the user.</p>
+<h3 id="create-user">Create User</h3>
+<p>:warning: This Endpoint is not tested. No valid value for <code>languageId</code> is known
+so far.</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/users' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;locationId&quot;: 1,
+    &quot;birthDate&quot;: &quot;1980-01-01&quot;,
+    &quot;gender&quot;: 0,
+    &quot;firstName&quot;: &quot;firstName&quot;,
+    &quot;lastName&quot;: &quot;lastName&quot;,
+    &quot;email&quot;: &quot;mail@example.org&quot;,
+    &quot;password&quot;: &quot;password&quot;,
+    &quot;mobilePhone&quot;:&quot;000000&quot;,
+    &quot;newsletterAccepted&quot;: false,
+    &quot;agbChecked&quot;: false,
+    &quot;planId&quot;: 1,
+    &quot;languageId&quot;: 0
+}'
+</code></pre>
+<h3 id="user-information">User Information</h3>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/users/$USER_ID' \
+--header 'Authorization: Bearer $ACCESS_TOKEN'
+</code></pre>
+<h3 id="user-statistics">User Statistics</h3>
+<p>Get interesting facts such as yout total number of rides or the total ridden 
+distance in meters.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/users/$USER_ID/stats' \
+--header 'Authorization: Bearer $ACCESS_TOKEN'
+</code></pre>
+<h3 id="list-rentals">List Rentals</h3>
+<p>List all your previous rentals.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/users/$USER_ID/rentals' \
+--header 'Authorization: Bearer $ACCESS_TOKEN'
+</code></pre>
+<h3 id="show-rental">Show Rental</h3>
+<p>Show a specific rental by <code>$RENTAL_ID</code>.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/users/$USER_ID/rentals/$RENTAL_ID' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' 
+</code></pre>
+<h3 id="change-address">Change Address</h3>
+<p>When you change you address, the old address is still stored and returnd as part
+of the user information. The new address will become the new default.</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/users/$USER_ID/addresses' \
+--header 'Authorization: Bearer $SIGNUP_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;firstName&quot;: &quot;John&quot;,
+    &quot;lastName&quot;: &quot;Doe&quot;,
+    &quot;street&quot;: &quot;street name&quot;,
+    &quot;houseNumber&quot;: &quot;99&quot;,
+    &quot;zipCode&quot;: &quot;10000&quot;,
+    &quot;city&quot;: &quot;city&quot;,
+    &quot;countryCode&quot;: &quot;DE&quot;
+}'
+</code></pre>
+<h3 id="show-payment-methods">Show Payment Methods</h3>
+<p>List current payment options.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/users/$USER_ID/payment-methods' \
+--header 'Authorization: Bearer $SIGNUP_TOKEN'
+</code></pre>
+<h3 id="payment-credit-card">Payment Credit Card</h3>
+<p>:warning: This endpoint is not tested. Correct format of values are not known.</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/users/$USER_ID/payment-methods/cc' \
+--header 'Authorization: Bearer $SIGNUP_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;number&quot;: &quot;number&quot;,
+    &quot;expirationDate&quot;: &quot;expDate&quot;,
+    &quot;cardHolder&quot;: &quot;cardHolder&quot;,
+    &quot;type&quot;: &quot;type&quot;,
+    &quot;cvc&quot;: &quot;cvc&quot;
+}'
+</code></pre>
+<h3 id="payment-bank-account">Payment Bank Account</h3>
+<p>:warning: This endpoint is not tested. Correct format of values are not known.</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/users/$USER_ID/payment-methods/dd' \
+--header 'Authorization: Bearer $SIGNUP_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;accountHolder&quot;: &quot;accountHolder&quot;,
+    &quot;sepaMandateCheck&quot;: false,
+    &quot;iban&quot;: &quot;iban&quot;,
+    &quot;bic&quot;: &quot;bic&quot;
+}'
+</code></pre>
+<h2 id="other-stuff">Other stuff</h2>
+<h3 id="plans">Plans</h3>
+<p>List available signup plan.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/plans'
+</code></pre>
+<h3 id="notifications">Notifications</h3>
+<p>Sometimes, Emmy notifies its user about recent events such as an increase of 
+prices, offline fleets because of bad weather condidition, etc.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/notifications' \
+--header 'Authorization: Bearer $ACCESS_TOKEN'
+</code></pre>
+<h3 id="locations">Locations</h3>
+<p>Get the business and non-parking territories.</p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/locations'
+</code></pre>
+<h3 id="buy-credit-packages">Buy Credit Packages</h3>
+<p>Emmy is offering prepaid credit packages so that you can lower the price per 
+minute.</p>
+<p>:warning: When submitting this request your account is charged depending on the
+value of <code>$CREDIT_PACKAGE_CODE</code>.</p>
+<p>:warning: This endpoint is not tested. No valid values for <code>$CREDIT_PACKAGE_CODE</code> are known so far. You may try one of the following: 
+<code>["Asphalteuphoristen", "Gelegenheitsflaneure"]</code> cmp. 
+<a href="https://emmy-sharing.de/preise/">https://emmy-sharing.de/preise/</a></p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/credit-packages/buy' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    &quot;code&quot;: &quot;$CREDIT_PACKAGE_CODE&quot;
+}'
+</code></pre>
+<h3 id="validate-promotion-codes">Validate Promotion Codes</h3>
+<p>:warning: This endpoint is not tested.</p>
+<p>Check, if a promotion code is valid an can be redeemed. You need to have a
+<code>$PROMOTION_CODE</code> that you might get from marketing actions. Use <code>SideMenu</code> for 
+<code>$REDEMPTION_PURPOSE</code>. If you want to enter a promotion code from a friend,
+use <code>Registration</code> instead</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/promotion-codes/validate' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer $ACCESS_TOKEN' \
+--data-raw '{
+    &quot;code&quot;:&quot;$PROMOTION_CODE&quot;,
+    &quot;redemptionPurpose&quot;: &quot;$REDEMPTION_PURPOSE&quot;
+}'
+</code></pre>
+<h3 id="redeem-promotion-codes">Redeem Promotion Codes</h3>
+<p>:warning: This endpoint is not tested.</p>
+<pre><code class="language-bash">curl --location --request POST 'https://api.emmy.ninja/promotion-codes/redeem' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer $SIGNUP_TOKEN' \
+--data-raw '{
+    &quot;code&quot;: &quot;$PROMOTION_CODE&quot;,
+    &quot;redemptionPurpose&quot;: &quot;$REDEMPTION_PURPOSE&quot;
+}'
+
+</code></pre>
+<h3 id="verification">Verification</h3>
+<p>:warning: Currently no understanding, what this endpoint is used for. </p>
+<p>Variable <code>$PLATFORM</code> must be one of the following: <code>["android", "ios"]</code></p>
+<pre><code class="language-bash">curl --location --request GET 'https://api.emmy.ninja/verification/onfido-token' \
+--header 'Emmy-Application-Platform: $PLATFORM' \
+--header 'Authorization: Bearer $SIGNUP_TOKEN'
+verification/onfido-token
+</code></pre>
+<p>The response contains a JWT. But what is it used for?</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../js/widgetla.js"></script>
+        <script src="../../js/disable_shortcuts.js"></script>
+        <script src="../../css/styles.css"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
